@@ -17,6 +17,9 @@ jobs:
       - name: Expand canonical repository payload
         run: |
           cat .bootstrap/chunk-* | base64 -d | tar -xzf -
+          # The ephemeral Actions token cannot add a new workflow.
+          # integrity.yml is installed separately through the GitHub connector.
+          rm -f .github/workflows/integrity.yml
           rm -f .github/workflows/bootstrap.yml
           rm -rf .bootstrap
       - name: Commit expanded researchOS

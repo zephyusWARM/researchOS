@@ -1,0 +1,30 @@
+name: Research task
+description: Create a durable research question / work unit
+title: "[research] "
+labels: []
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+      description: What durable question should survive individual execution attempts?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What evidence/coverage is required before this task can be considered done?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope / exclusions
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Expected source classes
+      description: Official, primary literature, theses, datasets, etc.

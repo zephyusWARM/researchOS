@@ -1,0 +1,8 @@
+[project]
+name = "researchos"
+version = "1.0.0"
+description = "Durable state protocol for long-horizon AI-assisted research"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["researchos"]

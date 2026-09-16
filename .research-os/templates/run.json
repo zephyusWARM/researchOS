@@ -1,0 +1,11 @@
+{
+  "id": "run-example",
+  "task_id": "task-example",
+  "status": "running",
+  "started_at": "2026-09-16T00:00:00+08:00",
+  "ended_at": null,
+  "base_commit": null,
+  "worker": "",
+  "summary": "",
+  "termination_reason": null
+}

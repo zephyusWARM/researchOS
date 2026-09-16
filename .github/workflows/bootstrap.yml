@@ -1,0 +1,28 @@
+name: bootstrap researchOS v1
+
+on:
+  push:
+    branches: [bootstrap/researchos-v1]
+    paths:
+      - '.bootstrap/researchos_v1.tar.gz.b64'
+
+permissions:
+  contents: write
+
+jobs:
+  expand:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Expand canonical repository payload
+        run: |
+          base64 -d .bootstrap/researchos_v1.tar.gz.b64 | tar -xzf -
+          rm -f .github/workflows/bootstrap.yml
+          rm -rf .bootstrap
+      - name: Commit expanded researchOS
+        run: |
+          git config user.name "researchOS bootstrap"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "feat: bootstrap researchOS v1.0.0"
+          git push origin HEAD:bootstrap/researchos-v1

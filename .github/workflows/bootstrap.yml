@@ -4,7 +4,7 @@ on:
   push:
     branches: [bootstrap/researchos-v1]
     paths:
-      - '.bootstrap/chunk-*'
+      - '.bootstrap/READY'
 
 permissions:
   contents: write

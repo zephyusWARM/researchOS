@@ -1,0 +1,18 @@
+{
+  "id": "task-phase2-full-corpus-scan",
+  "title": "2024–2026 papers + theses full-corpus scan",
+  "status": "active",
+  "question": "What is the maximally complete, source-traceable 2024–2026 paper and thesis corpus for every core NTU GICE Group C lab as of 2026-09-16?",
+  "created_at": "2026-09-16T23:42:00+08:00",
+  "updated_at": "2026-09-16T23:42:00+08:00",
+  "max_active_runs": 1,
+  "parent_task_id": null,
+  "acceptance_criteria": [
+    "canonical core-Lab roster is evidenced",
+    "per-Lab paper coverage for 2024, 2025, 2026 is recorded",
+    "relevant master and doctoral theses are recorded",
+    "duplicate records are reconciled",
+    "unknowns and negative searches retain provenance"
+  ],
+  "github_issue": 1
+}

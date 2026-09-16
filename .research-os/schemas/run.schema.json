@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "researchOS Run",
+  "type": "object",
+  "required": [
+    "id",
+    "task_id",
+    "status",
+    "started_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^run-"
+    },
+    "task_id": {
+      "type": "string",
+      "pattern": "^task-"
+    },
+    "status": {
+      "enum": [
+        "running",
+        "succeeded",
+        "failed",
+        "interrupted",
+        "superseded"
+      ]
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "ended_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "base_commit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "run-owner-ceo-20260919-a",
+  "task_id": "task-owner-ceo-core-sources",
+  "status": "running",
+  "started_at": "2026-09-19T19:25:00+08:00",
+  "ended_at": null,
+  "base_commit": "88c99638f8c7e51839d768ce84cbb3341642e635",
+  "worker": "ChatGPT GPT-5.6 Sol",
+  "summary": "Maximum-intensity web research run with GitHub-first state recovery, candidate expansion, primary-source sampling, adversarial bias checks, and durable evidence/claim capture.",
+  "termination_reason": null
+}

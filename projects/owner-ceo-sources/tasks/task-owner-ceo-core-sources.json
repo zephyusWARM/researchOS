@@ -1,0 +1,28 @@
+{
+  "id": "task-owner-ceo-core-sources",
+  "title": "Find the Core 3–5 owner/CEO business-thinking sources",
+  "status": "active",
+  "question": "Which globally accessible, continuously producing sources most effectively train durable owner/CEO business thinking, after controlling for survivorship bias, celebrity halo, and guest-access ≠ quality?",
+  "created_at": "2026-09-19T19:25:00+08:00",
+  "updated_at": "2026-09-19T19:25:00+08:00",
+  "max_active_runs": 4,
+  "parent_task_id": null,
+  "github_issue": 3,
+  "acceptance_criteria": [
+    "Broad multi-format candidate universe",
+    "Primary-source evidence and long-run samples for finalists",
+    "Explicit counterexamples and alternative candidates",
+    "Survivorship-bias, celebrity-halo, and guest-access attacks",
+    "Red-team re-ranking with stable Core 3–5",
+    "Final reasons, defects, best use, and falsification conditions"
+  ],
+  "subquestions": [
+    "operator proximity",
+    "causal depth",
+    "longitudinal auditability",
+    "owner breadth",
+    "anti-halo robustness",
+    "failure exposure",
+    "continuity and usability"
+  ]
+}

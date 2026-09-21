@@ -14,3 +14,4 @@
 12. **Restartability** — `SNAPSHOT.md` plus canonical records must orient a fresh worker.
 13. **Canonical review** — substantial state enters `main` through CI-reviewed integration.
 14. **Minimal machinery** — infrastructure is added only to prevent observed classes of research failure.
+15. **Low-frequency, high-information persistence** — GitHub is durable state, not live telemetry or a scratchpad. Do not commit per query, page, paper, or minor thought. Research first; batch-persist only after a meaningful semantic/epistemic delta, a crash-critical checkpoint, run lifecycle transition, or coherent integration milestone.

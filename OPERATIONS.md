@@ -14,6 +14,9 @@
 - Add evidence records for bounded observations with exact locators.
 - Do not promote memory, search snippets, or model-generated text into evidence without an attributable source.
 - Keep inference separate from source-reported fact.
+- **Do not use GitHub as a live research log.** Search, read, compare, and reason for a while before writing.
+- Batch related Source/Evidence/Claim/Snapshot changes into coherent milestones. A single paper discovery, query, duplicate result, or tentative idea normally does not justify its own commit or push.
+- Persist early only when losing the state would materially harm recovery (for example, a crash-critical checkpoint, a run lifecycle boundary, or a high-value contradiction that would be costly to reconstruct).
 
 ## Finish or interrupt a run
 
@@ -53,4 +56,4 @@ CI must pass before integration.
 
 ## Crash-recovery discipline
 
-The canonical recovery surface is Git, not chat history. After meaningful progress, update durable state before continuing into another large research branch.
+The canonical recovery surface is Git, not chat history. After meaningful progress, update durable state before continuing into another large research branch. "Meaningful" means the research state changed, not merely that more pages were visited.

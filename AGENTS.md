@@ -14,6 +14,7 @@ This repository may be edited by humans or transient AI research workers.
 8. Keep factual source reports, model inference, and unresolved questions distinct.
 9. Before handoff, leave `SNAPSHOT.md` accurate enough for a fresh worker.
 10. Run validation before proposing integration.
+11. **Write sparingly.** GitHub is not a token-by-token scratchpad. Do not create a commit/push for each search, source, paper, or small thought. Research first and batch only meaningful epistemic deltas into coherent commits. Prefer fewer, richer writes.
 
 ## Recovery command
 

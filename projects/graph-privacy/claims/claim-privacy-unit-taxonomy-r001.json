@@ -1,0 +1,15 @@
+{
+  "id": "claim-privacy-unit-taxonomy-r001",
+  "claim_key": "privacy-unit-taxonomy",
+  "revision": 1,
+  "statement": "Graph-privacy guarantees are not interpretable without specifying the adjacency/protected unit—such as an edge/relation, node/entity, attribute/topology component, or multigranular combination—and epsilon values under different adjacency relations should not be treated as directly comparable privacy strength.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-dpdgc-multigranular",
+    "ev-gap-aggregation-dp",
+    "ev-entity-dp-coupled-sampling"
+  ],
+  "created_at": "2026-09-22T14:29:50+08:00",
+  "supersedes": null,
+  "notes": "Different neighboring-dataset relations define different guarantees."
+}

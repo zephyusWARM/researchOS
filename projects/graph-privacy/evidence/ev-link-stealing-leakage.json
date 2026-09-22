@@ -1,0 +1,9 @@
+{
+  "id": "ev-link-stealing-leakage",
+  "source_id": "src-link-stealing-usenix-2021",
+  "evidence_type": "paraphrase",
+  "statement": "Outputs from trained graph neural networks can leak whether links exist between nodes, establishing topology inference as a concrete privacy threat.",
+  "locator": "Abstract / attack setting",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "notes": ""
+}

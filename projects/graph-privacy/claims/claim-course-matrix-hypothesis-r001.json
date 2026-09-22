@@ -1,0 +1,16 @@
+{
+  "id": "claim-course-matrix-hypothesis-r001",
+  "claim_key": "course-matrix-hypothesis",
+  "revision": 1,
+  "statement": "A high-information next step is to cross protected unit × attack target × learning paradigm and test matched pairs; this may reveal where formal protection boundaries align with empirical leakage and can generate a tractable course project without merely reimplementing a DP-GNN.",
+  "status": "proposed",
+  "evidence_ids": [
+    "ev-gap-aggregation-dp",
+    "ev-entity-dp-coupled-sampling",
+    "ev-link-stealing-leakage",
+    "ev-graph-pretrain-mia-frontier"
+  ],
+  "created_at": "2026-09-22T14:29:50+08:00",
+  "supersedes": null,
+  "notes": "Research hypothesis/workflow decision; must be novelty-checked against 2025–2026 work."
+}

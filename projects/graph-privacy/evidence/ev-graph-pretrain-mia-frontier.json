@@ -1,0 +1,9 @@
+{
+  "id": "ev-graph-pretrain-mia-frontier",
+  "source_id": "src-graph-pretrain-mia-aaai-2026",
+  "evidence_type": "paraphrase",
+  "statement": "Membership inference has moved to multi-domain graph pre-trained models, showing that privacy auditing now extends beyond conventional task-specific GNNs.",
+  "locator": "Abstract / stated problem",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "notes": ""
+}

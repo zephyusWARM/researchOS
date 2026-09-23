@@ -1,0 +1,9 @@
+{
+  "id": "ev-ponomareva-modern-ml",
+  "source_id": "src-ponomareva-et-al-2023",
+  "evidence_type": "paraphrase",
+  "statement": "The guide is explicitly self-contained for DP machine learning and includes DP theory background, privacy accounting and assumptions, implementation of DP training, architecture/hyperparameter choices, convergence, and reporting practices.",
+  "locator": "arXiv:2303.00654 abstract",
+  "captured_at": "2026-09-23T10:15:00+08:00",
+  "notes": "Supports its role as an ML/practice bridge; its ML focus is also why it is not treated as the sole broad foundations source."
+}

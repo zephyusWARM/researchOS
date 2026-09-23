@@ -1,0 +1,21 @@
+{
+  "id": "src-wood-et-al-2018",
+  "title": "Differential Privacy: A Primer for a Non-Technical Audience",
+  "source_type": "paper",
+  "locator": "https://privacytools.seas.harvard.edu/publications/differential-privacy-primer-non-technical-audience-preliminary-version",
+  "captured_at": "2026-09-23T10:15:00+08:00",
+  "published_at": "2018",
+  "authors": [
+    "Alexandra Wood",
+    "Micah Altman",
+    "Aaron Bembenek",
+    "Mark Bun",
+    "Marco Gaboardi",
+    "James Honaker",
+    "Kobbi Nissim",
+    "David R. O'Brien",
+    "Thomas Steinke",
+    "Salil Vadhan"
+  ],
+  "supersedes": null
+}

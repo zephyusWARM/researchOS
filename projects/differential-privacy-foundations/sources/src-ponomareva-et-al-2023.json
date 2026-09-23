@@ -1,0 +1,20 @@
+{
+  "id": "src-ponomareva-et-al-2023",
+  "title": "How to DP-fy ML: A Practical Guide to Machine Learning with Differential Privacy",
+  "source_type": "paper",
+  "locator": "https://arxiv.org/abs/2303.00654",
+  "captured_at": "2026-09-23T10:15:00+08:00",
+  "published_at": "2023-03-01",
+  "authors": [
+    "Natalia Ponomareva",
+    "Hussein Hazimeh",
+    "Alex Kurakin",
+    "Zheng Xu",
+    "Carson Denison",
+    "H. Brendan McMahan",
+    "Sergei Vassilvitskii",
+    "Steve Chien",
+    "Abhradeep Thakurta"
+  ],
+  "supersedes": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "claim-strict-paper-choice-r001",
+  "claim_key": "strict-one-paper-choice",
+  "revision": 1,
+  "statement": "If the format constraint literally requires one journal/conference article rather than a monograph, Cynthia Dwork's 2011 'A Firm Foundation for Private Data Analysis' is a stronger rigorous core read than the Wood et al. non-technical primer for derivation-level mastery because it directly develops sensitivity, the Laplace mechanism/proof idea, repeated-query privacy cost, and the exponential mechanism.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-dwork-2011-mechanisms",
+    "ev-wood-intended-scope"
+  ],
+  "created_at": "2026-09-23T10:15:00+08:00",
+  "supersedes": null,
+  "notes": "Comparative pedagogical inference; not a universal ranking for all audiences."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ev-impromptu-floor",
+  "source_id": "src-impromptu-findmetable-202609",
+  "evidence_type": "data",
+  "statement": "The current fine-dining reservation index lists Impromptu by Paul Lee's Chef's Impromptu Omakase at NT$3,980.",
+  "locator": "Impromptu by Paul Lee row",
+  "captured_at": "2026-09-23T23:42:00+08:00",
+  "notes": "Secondary current source. Exact current primary-source price remains a refresh item, but the >400 exclusion is robust."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "claim-chunyi-tracking-r001",
+  "claim_key": "chunyi-active-watchlist",
+  "revision": 1,
+  "statement": "醇一拉麵 is the sole active Phase-1 watchlist restaurant: multiple 2026 bowls are documented at NT$340–400 and current aggregation remains in the NT$200–400 range, but the exact September 2026 menu is not yet first-party verified.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-chunyi-340",
+    "ev-chunyi-400-ops",
+    "ev-chunyi-current-range"
+  ],
+  "created_at": "2026-09-23T23:42:00+08:00",
+  "supersedes": null,
+  "notes": "Track restaurant-level affordability, not availability of any single seasonal bowl."
+}

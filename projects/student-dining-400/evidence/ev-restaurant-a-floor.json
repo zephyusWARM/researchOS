@@ -1,0 +1,9 @@
+{
+  "id": "ev-restaurant-a-floor",
+  "source_id": "src-restaurant-a-official",
+  "evidence_type": "data",
+  "statement": "Restaurant A official pricing states lunch NT$4,850 per person +10%, dinner NT$6,850 +10%, and bar-area minimum NT$700 +10%.",
+  "locator": "Pricing paragraph under introduction",
+  "captured_at": "2026-09-23T23:42:00+08:00",
+  "notes": "Official source."
+}

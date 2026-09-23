@@ -1,0 +1,9 @@
+{
+  "id": "ev-seed-ten",
+  "source_id": "src-500pan-lin-20260921",
+  "evidence_type": "observation",
+  "statement": "The 2026-09-21 feature lists ten Taipei picks for James C. Lin: Chaud Doux, Restaurant A, 山海樓, Impromptu by Paul Lee, KOUMA日本料理小馬, aMaze心宴, yuu肉割烹ゆう, 榕居, 佐佧義式窯烤披薩屋, and 醇一拉麵.",
+  "locator": "Section: 林之晨的精選10盤菜",
+  "captured_at": "2026-09-23T23:42:00+08:00",
+  "notes": "Defines Phase 1 seed corpus."
+}

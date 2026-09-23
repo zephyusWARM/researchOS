@@ -1,0 +1,25 @@
+{
+  "id": "claim-seed-screening-r001",
+  "claim_key": "seed-budget-screen",
+  "revision": 1,
+  "statement": "As of 2026-09-23, among the ten Taipei restaurants in James C. Lin's 500盤 2026 selection, 醇一拉麵 is the only restaurant with evidence consistent with a realistic one-person meal at or below NT$400; the other nine are excluded under the hard all-in budget rule.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-seed-ten",
+    "ev-chauddoux-min",
+    "ev-restaurant-a-floor",
+    "ev-shanhailou-floor",
+    "ev-impromptu-floor",
+    "ev-kouma-floor",
+    "ev-amaze-floor",
+    "ev-yuu-floor",
+    "ev-rongju-floor",
+    "ev-zoca-min",
+    "ev-chunyi-340",
+    "ev-chunyi-400-ops",
+    "ev-chunyi-current-range"
+  ],
+  "created_at": "2026-09-23T23:42:00+08:00",
+  "supersedes": null,
+  "notes": "Exact current prices for some excluded fine-dining restaurants may differ, but all captured floors are far above NT$400. 醇一 remains on freshness watch pending first-party Sep-2026 menu verification."
+}

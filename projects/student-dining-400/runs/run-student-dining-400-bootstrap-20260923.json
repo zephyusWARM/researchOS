@@ -1,0 +1,11 @@
+{
+  "id": "run-student-dining-400-bootstrap-20260923",
+  "task_id": "task-screen-and-track-student-dining-400",
+  "status": "succeeded",
+  "started_at": "2026-09-23T23:42:00+08:00",
+  "ended_at": "2026-09-23T23:59:00+08:00",
+  "base_commit": "b811cc8d8fde09c1498ef128c5e43f2926e1cb00",
+  "worker": "ChatGPT GPT-5.6 Sol",
+  "summary": "Screened all ten 2026 James C. Lin Taipei picks under a hard <=NT$400 solo-meal rule. Nine are excluded by current/recent minimum-spend, set-menu, or price-floor evidence. 醇一 is retained as the sole active survivor, with exact September menu freshness explicitly unresolved. Captured award-dish seasonality and recent 2026 special-price/queue evidence.",
+  "termination_reason": "Meaningful screening milestone reached; next high-value step is first-party September menu verification for the sole survivor."
+}

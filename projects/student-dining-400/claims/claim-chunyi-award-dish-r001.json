@@ -1,0 +1,13 @@
+{
+  "id": "claim-chunyi-award-dish-r001",
+  "claim_key": "chunyi-award-dish-availability",
+  "revision": 1,
+  "statement": "The NT$310 鴨鰹櫛醬油拉麵 selected in the 2026 500盤 feature should not be presented as a currently available September 2026 option; captured evidence identifies it as a limited item ending in February 2026.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-chunyi-award-season"
+  ],
+  "created_at": "2026-09-23T23:42:00+08:00",
+  "supersedes": null,
+  "notes": "Prevents award recognition from being conflated with current menu availability."
+}

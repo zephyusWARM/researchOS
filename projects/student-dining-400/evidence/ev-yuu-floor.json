@@ -1,0 +1,9 @@
+{
+  "id": "ev-yuu-floor",
+  "source_id": "src-yuu-autoreserve-202609",
+  "evidence_type": "data",
+  "statement": "The current AutoReserve listing for Nikukappou Yuu shows a restaurant budget of TWD 2,200 and reservation-only meal periods.",
+  "locator": "Budget / reservation details",
+  "captured_at": "2026-09-23T23:42:00+08:00",
+  "notes": "Platform warns accuracy is not guaranteed; exact current menu price needs primary-source refresh, but evidence is incompatible with <=400."
+}

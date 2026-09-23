@@ -1,0 +1,13 @@
+{
+  "id": "claim-zoca-false-cheap-r001",
+  "claim_key": "zoca-budget-eligibility",
+  "revision": 1,
+  "statement": "佐佧 is not a <=NT$400 student option even if an individual menu item appears near the ceiling, because 2026 dine-in evidence shows a NT$600 per-person minimum plus 10% service.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-zoca-min"
+  ],
+  "created_at": "2026-09-23T23:42:00+08:00",
+  "supersedes": null,
+  "notes": "Illustrates why the program evaluates unavoidable bill, not sticker price of a single item."
+}

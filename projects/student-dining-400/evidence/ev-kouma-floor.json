@@ -1,0 +1,9 @@
+{
+  "id": "ev-kouma-floor",
+  "source_id": "src-kouma-marriott-official",
+  "evidence_type": "data",
+  "statement": "Taipei Marriott's official KOUMA page lists lunch omakase from NT$3,500 and dinner from NT$6,500, both +10% service.",
+  "locator": "價格｜Full Course",
+  "captured_at": "2026-09-23T23:42:00+08:00",
+  "notes": "Official and current."
+}

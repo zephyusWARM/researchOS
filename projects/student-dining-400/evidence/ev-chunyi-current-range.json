@@ -1,0 +1,9 @@
+{
+  "id": "ev-chunyi-current-range",
+  "source_id": "src-chunyi-ifoodie-current",
+  "evidence_type": "metadata",
+  "statement": "The currently crawled restaurant summary reports average spend around NT$300, a NT$200–400 range, and suitability for solo dining.",
+  "locator": "餐廳詳細資訊 / 均消價位 / 價位範圍 / 適合族群",
+  "captured_at": "2026-09-23T23:42:00+08:00",
+  "notes": "Aggregator metadata is weaker than an official menu; underlying detailed reviews are older, so exact September prices remain unresolved."
+}

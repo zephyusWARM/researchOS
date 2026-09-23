@@ -1,0 +1,9 @@
+{
+  "id": "ev-solo-service",
+  "source_id": "src-solo-menu",
+  "evidence_type": "data",
+  "statement": "Current Solo Pasta menu capture states that listed prices are subject to a 10% service charge.",
+  "locator": "Menu header",
+  "captured_at": "2026-09-24T00:38:56+08:00",
+  "notes": "Secondary current menu source; first-party policy refresh is still desirable."
+}

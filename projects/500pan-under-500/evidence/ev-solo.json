@@ -1,0 +1,9 @@
+{
+  "id": "ev-solo",
+  "source_id": "src-solo-social",
+  "evidence_type": "data",
+  "statement": "Current restaurant-controlled social mirror states NT$500 minimum spend per person.",
+  "locator": "Current business rules block",
+  "captured_at": "2026-09-24T00:38:56+08:00",
+  "notes": "src-solo-menu separately states +10% service, so the all-in floor is at least 550."
+}

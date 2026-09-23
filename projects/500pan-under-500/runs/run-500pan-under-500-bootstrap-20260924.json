@@ -1,0 +1,11 @@
+{
+  "id": "run-500pan-under-500-bootstrap-20260924",
+  "task_id": "task-full-corpus-500pan-under-500",
+  "status": "succeeded",
+  "started_at": "2026-09-24T00:31:00+08:00",
+  "ended_at": "2026-09-24T00:38:56+08:00",
+  "base_commit": "21b56d541b1a3908c1859df8f0b2623ffb71d4a2",
+  "worker": "ChatGPT GPT-5.6 Sol",
+  "summary": "Locked the official 314-restaurant 500盤 2026 universe; designed a full-corpus tiered screen; separated restaurant affordability from award-dish affordability; captured an initial cross-region candidate set plus policy, shared-format, and temporary-closure traps. Full 314-row triage remains active.",
+  "termination_reason": "Meaningful bootstrap milestone persisted; next run should complete high-recall Tier-1 triage before deepening survivors."
+}

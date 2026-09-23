@@ -1,0 +1,9 @@
+{
+  "id": "ev-dtf-price",
+  "source_id": "src-dtf-price",
+  "evidence_type": "data",
+  "statement": "From 2026-06-22, 鼎泰豐 raised 蝦仁蛋炒飯 to NT$320 and other items by about 5%; current menu corroboration places 排骨蛋炒飯 at NT$340.",
+  "locator": "Price-adjustment report",
+  "captured_at": "2026-09-24T00:38:56+08:00",
+  "notes": "Current 2026 price evidence; restaurant is separately in the official 500盤 corpus."
+}

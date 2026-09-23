@@ -1,0 +1,9 @@
+{
+  "id": "ev-corpus",
+  "source_id": "src-500pan-314",
+  "evidence_type": "data",
+  "statement": "The official 500輯 article reports 314 restaurants received recommendations in 500盤 2026.",
+  "locator": "Headline and opening paragraph",
+  "captured_at": "2026-09-24T00:38:56+08:00",
+  "notes": "Defines the full-corpus denominator; use src-500pan-complete for restaurant discovery."
+}

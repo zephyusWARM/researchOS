@@ -1,0 +1,9 @@
+{
+  "id": "ev-sun-noodles",
+  "source_id": "src-sun-noodles",
+  "evidence_type": "data",
+  "statement": "A Jan-2026 visit/menu report documents both 蔥油拌麵套餐 and 炸醬麵套餐 at NT$320, each as a meal set; current 2026 aggregation still reports average spend around NT$320.",
+  "locator": "孫麵店菜單 / 套餐 sections",
+  "captured_at": "2026-09-24T00:38:56+08:00",
+  "notes": "Complete meal path is clear; current first-party mandatory-charge policy remains open."
+}

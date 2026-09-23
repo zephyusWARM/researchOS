@@ -1,0 +1,9 @@
+{
+  "id": "ev-atsai",
+  "source_id": "src-atsai",
+  "evidence_type": "data",
+  "statement": "Current menu recognition lists beef soup NT$130–180, premium beef soup 260, and beef noodles/fried rice/fried noodles/rice around 170.",
+  "locator": "Menu",
+  "captured_at": "2026-09-24T00:38:56+08:00",
+  "notes": "Official 500盤 membership is established separately by src-500pan-complete. This source also mentions 500碗; do not conflate the awards."
+}

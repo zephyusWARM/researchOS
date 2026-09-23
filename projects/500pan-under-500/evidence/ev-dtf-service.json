@@ -1,0 +1,9 @@
+{
+  "id": "ev-dtf-service",
+  "source_id": "src-dtf-service",
+  "evidence_type": "data",
+  "statement": "Taipei retail material states 鼎泰豐 dine-in adds a 10% service charge.",
+  "locator": "鼎泰豐 A4 B2 entry",
+  "captured_at": "2026-09-24T00:38:56+08:00",
+  "notes": "With a NT$340 main, all-in is NT$374, safely below the NT$500 ceiling."
+}

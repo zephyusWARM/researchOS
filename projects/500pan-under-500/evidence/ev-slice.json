@@ -1,0 +1,9 @@
+{
+  "id": "ev-slice",
+  "source_id": "src-slice",
+  "evidence_type": "metadata",
+  "statement": "Current aggregation reports average spend around NT$150, single-slice format, solo suitability and recent 2026 visits; it also flags a low-spend rule without stating the amount.",
+  "locator": "Restaurant details / reviews",
+  "captured_at": "2026-09-24T00:38:56+08:00",
+  "notes": "Likely qualifies, but low-spend amount must be resolved."
+}

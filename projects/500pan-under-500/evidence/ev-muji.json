@@ -1,0 +1,9 @@
+{
+  "id": "ev-muji",
+  "source_id": "src-muji",
+  "evidence_type": "data",
+  "statement": "Current menu lists beef noodles at NT$335, half-tendon-half-meat noodles at NT$375, and tendon/offal/tripe noodle bowls at NT$430.",
+  "locator": "麵類",
+  "captured_at": "2026-09-24T00:38:56+08:00",
+  "notes": "Normal one-person meals below 500; dine-in mandatory-charge policy still needs explicit verification."
+}

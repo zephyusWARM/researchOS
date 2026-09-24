@@ -1,38 +1,40 @@
 # Snapshot
 
-Status: **bootstrap milestone — official 314-restaurant universe locked; first high-signal survivor/trap batch captured; full 314 triage remains active**
+Status: **Tier-1 full-corpus milestone complete — 314/314 assigned a triage disposition; Tier-2 now restricted to survivors**
 
-## First active candidates
+## Tier-1 result (2026-09-24)
 
-### Taipei core
-- **醇一拉麵 — QUALIFIED / FRESHNESS WATCH**: inherited from <=400; 2026 evidence already supports bowls within this ceiling.
-- **ZAC ZAG 一樂炸雞 — QUALIFIED / FRESHNESS WATCH**: official ordering site has an 一人獨享餐 category; current menu corroboration has individual chicken portions below 500. Exact dine-in minimum remains open.
-- **穆記牛肉麵 — QUALIFIED / FRESHNESS WATCH**: current menu shows complete beef-noodle bowls NT$335–430; dine-in hidden-charge policy should be closed explicitly.
-- **孫麵店 — QUALIFIED / FRESHNESS WATCH**: the current 2026 store remains around NT$320 average spend; launch/current menu evidence documents two full noodle sets at NT$320. Hidden-charge policy still needs first-party closure.
-- **鼎泰豐 — QUALIFIED**: after the 2026-06-22 price increase, complete solo mains such as 排骨蛋炒飯 NT$340 and 蝦仁蛋炒飯 NT$320 remain below the ceiling; current Taipei retail material confirms +10% dine-in service, so these remain <=NT$500 all-in.
-- **春水堂（中正店） — QUALIFIED / FRESHNESS WATCH**: official current store page confirms operation; 2026 North-Taiwan menu evidence has full rice/noodle sets around NT$195–295 and a 10% dine-in service implication, leaving ample room under NT$500. Exact branch-level current menu should be primary-refreshed.
-- **The Slice Shop 信義安和 — BORDERLINE / likely qualify**: recent single-slice/solo evidence and ~NT$150 average spend; exact current low-spend amount unresolved.
-- **蘇杭點心店 — QUALIFIED / FRESHNESS WATCH**: meal-scale fried rice/dumpling choices clearly below 500; first-party current policy refresh wanted.
-- **塗姆埔里小吃 — BORDERLINE**: current menu has 炒埔里米粉 ~NT$300; shared-dish/solo-meal semantics remain open.
+- **314 / 314** official 2026 500盤 restaurant slots have a Tier-1 disposition.
+- **14 strong survivors**: clear current/recent solo-meal affordability evidence, but some still carry freshness/policy gaps.
+- **96 Tier-2 candidates**: plausible enough that they cannot be safely discarded without menu/minimum-spend proof.
+- **70 shared-format risk**: potentially cheap per person, but group arithmetic is not accepted; a genuine solo order must be proven.
+- **21 hard exclusions**: current/recent attributable evidence already pushes the unavoidable solo path above NT$500 or requires an incompatible format.
+- **111 reversible screen-out signals**: high-price/course/omakase/fine-dining evidence makes <=500 implausible; these are not promoted to hard exclusions without exact floor proof.
+- **1 operational watch**: 阿城鵝肉土城總店 is temporarily closed for renovation.
+- **1 corpus gap**: official total requires 55 two-pan restaurants, but the machine-readable official text exposes only 54 names; the official image layer remains authoritative.
 
-### National travel queue
-- **Bebu 春嬌粄條（新竹） — QUALIFIED / FRESHNESS WATCH**: Jan-2026 report of Oct-2025 menu shows 燥粄條 NT$100 and many small dishes <300.
-- **來一片義式小餐館（台南） — QUALIFIED / FRESHNESS WATCH**: current delivery whole pizzas ~NT$220–260; dine-in hidden charges open.
-- **阿財牛肉湯（台南） — QUALIFIED / FRESHNESS WATCH**: current menu recognition shows soups NT$130–180 and noodles/fried rice ~170.
-- **小喬新疆羊肉串（新北） — QUALIFIED / FRESHNESS WATCH**: current menu shows 羊肉拌飯 70, 羊肉湯 150, skewers 40.
+Canonical machine-readable ledger: `data/tier1-screen-20260924.json`.
 
-## Important traps
-- **Solo Pasta — EXCLUDED / POLICY WATCH**: current restaurant-controlled social mirror says NT$500/person minimum; current menu capture says +10% service, implying >=NT$550.
-- **阿城鵝肉土城總店 — OPERATIONAL WATCH**: closed for renovation from 2026-09-01; September posts still say closed; targeted return in November.
-- **自在天 昆布水つけ麵 — EXCLUDED / FRESHNESS WATCH**: current aggregate remains around NT$1,080.
-- **江家羊肉 — BORDERLINE / shared-format friction**: recent 2026 reports describe severe reservation friction and shared set ordering; per-person arithmetic does not prove a solo <=500 path.
-- Existing <=400 exclusions with floors >500 (e.g. 佐佧 600+10%; Chaud Doux lunch 900+10%) remain excluded without routine re-research.
+## Taipei strong-survivor queue
 
-## Core insight
-The <=500 frontier contains three different objects: true solo-value restaurants; false positives created by minimum-spend/service policy; and shared restaurants where per-capita arithmetic looks cheap but a solo order is not actually available.
+**都一處（仁愛店）, 鼎泰豐, ZAC ZAG 一樂炸雞, 天下三絕, 春水堂（中正店）, 孫麵店, 新采粵式小館, 醇一拉麵, 穆記牛肉麵, 蘇杭點心店.**
 
-## Current task
-`task-full-corpus-500pan-under-500`
+These names survived Tier 1, but `SURVIVE_CONFIRMED` means “strong survivor into Tier 2,” not “all volatility closed.” Exact current dine-in minimum/service policy still needs first-party closure for some.
 
-## Next action
-Finish Tier-1 triage across all 314 official restaurants, then deepen only QUALIFIED/BORDERLINE survivors. Taipei first-party low-spend/policy checks are highest priority for ZAC ZAG, 穆記, The Slice Shop, 蘇杭點心店 and 塗姆埔里小吃.
+## Material deltas from this run
+
+- **都一處（仁愛店） strengthened**: current menu exposes explicit one-person sets NT$280–420; a 2026 dine-in report states 10% service, keeping the highest listed one-person set at NT$462 all-in.
+- **孫麵店 strengthened**: 500輯 documents two complete meal sets at NT$320, not merely a cheap side or snack.
+- **穆記 strengthened operationally**: current aggregation describes adequate portions, solo suitability, and peak-time crowding; exact low-spend wording is still not treated as first-party proof.
+- **Sugar Pea moved to hard exclusion under the strict complete-meal rule**: official policy is NT$300 minimum +10%, but current menu-scale bowls/salads/pasta begin above NT$500; sub-500 items are nibbles/toast rather than a defensible normal meal path.
+- **驢子餐廳（賦樂旅居店） hard excluded**: current OpenTable policy requires each diner age 7+ to order a Pasta/Risotto or Grill/Pan item and lists the restaurant at NT$1,000–1,999.
+- **Wok by O'BOND hard excluded**: current Michelin description identifies a seasonal tasting-menu format; current pricing evidence remains far above the student ceiling.
+- **Shared-restaurant rule tightened**: restaurants such as 四海一家 / 欣葉台菜 / 六品小館 are not qualified by dividing a group meal. They stay in shared-risk until a solo fried-rice/noodle/set path is proven.
+
+## Award-dish caveat
+
+Restaurant-level affordability and the actual 500盤-recognized dish remain separate fields. For many 1-pan restaurants, the public machine-readable award page does not expose the exact dish and current price. Do not infer an award dish from a signature dish, special-award article, or restaurant bestseller.
+
+## Next research boundary
+
+Tier 1 is complete. Do **not** spend routine time deepening DROP_T1_SIGNAL restaurants. Tier 2 should now focus on surviving candidates, Taipei first, and close: current first-party menu, unavoidable charges, solo portion sufficiency, opening status, queue/reservation friction, recent negative evidence, and award-dish identity/price where publicly verifiable.

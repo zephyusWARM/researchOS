@@ -1,0 +1,14 @@
+{
+  "id": "claim-tier1-full-corpus-r001",
+  "claim_key": "full-corpus-tier1-disposition",
+  "revision": 1,
+  "statement": "As of 2026-09-24, all 314 official 500盤 2026 restaurant slots have a Tier-1 disposition under the <=NT$500 normal-solo-meal rule: 14 strong survivors, 96 Tier-2 candidates, 70 shared-format risks, 21 hard exclusions, 111 reversible screen-out signals, 1 operational watch, and 1 unresolved image-only corpus slot.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-corpus",
+    "ev-tier1-delta-20260924"
+  ],
+  "created_at": "2026-09-24T11:35:00+08:00",
+  "supersedes": null,
+  "notes": "Tier-1 disposition is deliberately high-recall. SURVIVE_CONFIRMED is not identical to final stable QUALIFIED; DROP_T1_SIGNAL is reversible and must not be treated as exact budget-floor proof."
+}

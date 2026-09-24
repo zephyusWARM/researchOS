@@ -1,0 +1,28 @@
+{
+  "id": "run-500pan-tier1-20260924",
+  "task_id": "task-full-corpus-500pan-under-500",
+  "status": "succeeded",
+  "started_at": "2026-09-24T10:53:00+08:00",
+  "ended_at": "2026-09-24T11:35:00+08:00",
+  "base_commit": "e85f939d7bde5aadabbfe693310bd519317e335d",
+  "worker": "ChatGPT GPT-5.6 Sol",
+  "summary": "Completed a 314/314 high-recall Tier-1 screen under the <=NT$500 normal-solo-meal all-in rule. Preserved shared-meal traps, closure, stale-price risk, hard exclusions vs reversible screen-out signals, and the official one-name two-pan text/image corpus gap. Deepened current Taipei evidence only where it materially changed status or survivor confidence.",
+  "counts": {
+    "SURVIVE_CONFIRMED": 14,
+    "SURVIVE_TO_T2": 96,
+    "SURVIVE_SHARED_RISK": 70,
+    "DROP_HARD": 21,
+    "DROP_T1_SIGNAL": 111,
+    "OPERATIONAL_WATCH": 1,
+    "CORPUS_GAP": 1
+  },
+  "semantic_deltas": [
+    "Tier 1 is complete across all 314 official restaurant slots.",
+    "都一處 promoted to strong survivor based on explicit one-person sets.",
+    "Sugar Pea hard-excluded under complete-meal semantics despite a low minimum-spend floor.",
+    "驢子 and Wok by O'BOND hard-excluded based on mandatory main/tasting format.",
+    "Shared-format restaurants segregated from genuine solo-meal candidates.",
+    "Award-dish affordability remains separate and unresolved where official machine-readable text does not expose dish/price."
+  ],
+  "termination_reason": "Full Tier-1 disposition milestone reached. Deeper verification is now intentionally restricted to survivors, Taipei first."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ev-pvgalm-coupled-relations",
+  "source_id": "src-pvgalm-colm-2025",
+  "evidence_type": "paraphrase",
+  "statement": "Graph relations share entities, creating coupled samples; the work develops privacy-aware relational training for fine-tuning pretrained models including language models.",
+  "locator": "Abstract / method overview",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "notes": ""
+}

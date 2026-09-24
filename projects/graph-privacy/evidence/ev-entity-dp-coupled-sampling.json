@@ -1,0 +1,9 @@
+{
+  "id": "ev-entity-dp-coupled-sampling",
+  "source_id": "src-relational-entity-dp-neurips-2025",
+  "evidence_type": "paraphrase",
+  "statement": "Entity-level relational privacy is harder because one entity can occur in many relations and coupled sampling affects sensitivity/amplification; the paper develops entity-aware clipping and privacy analysis.",
+  "locator": "Abstract / contributions",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "notes": ""
+}

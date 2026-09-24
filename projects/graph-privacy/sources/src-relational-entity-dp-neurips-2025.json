@@ -1,0 +1,16 @@
+{
+  "id": "src-relational-entity-dp-neurips-2025",
+  "title": "Differentially Private Relational Learning with Entity-level Privacy Guarantees",
+  "source_type": "paper",
+  "locator": "https://papers.nips.cc/paper_files/paper/2025/hash/7c174713e975e819461496157a293f3c-Abstract-Conference.html",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "published_at": null,
+  "authors": [
+    "Yinan Huang",
+    "Haoteng Yin",
+    "Eli Chien",
+    "Rongzhe Wei",
+    "Pan Li"
+  ],
+  "supersedes": null
+}

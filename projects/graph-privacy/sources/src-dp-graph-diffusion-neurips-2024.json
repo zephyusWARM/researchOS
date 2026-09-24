@@ -1,0 +1,14 @@
+{
+  "id": "src-dp-graph-diffusion-neurips-2024",
+  "title": "Differentially Private Graph Diffusion with Applications in Personalized PageRanks",
+  "source_type": "paper",
+  "locator": "https://papers.neurips.cc/paper_files/paper/2024/file/167cb476aab527e23741e314be80a4ea-Paper-Conference.pdf",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "published_at": null,
+  "authors": [
+    "Rongzhe Wei",
+    "Eli Chien",
+    "Pan Li"
+  ],
+  "supersedes": null
+}

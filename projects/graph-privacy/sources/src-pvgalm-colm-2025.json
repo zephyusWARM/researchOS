@@ -1,0 +1,15 @@
+{
+  "id": "src-pvgalm-colm-2025",
+  "title": "Privately Learning from Graphs with Applications in Fine-tuning Large Language Models",
+  "source_type": "paper",
+  "locator": "https://arxiv.org/abs/2410.08299",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "published_at": null,
+  "authors": [
+    "Haoteng Yin",
+    "Rongzhe Wei",
+    "Eli Chien",
+    "Pan Li"
+  ],
+  "supersedes": null
+}

@@ -1,0 +1,13 @@
+{
+  "id": "src-gap-usenix-2023",
+  "title": "GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation",
+  "source_type": "paper",
+  "locator": "https://www.usenix.org/conference/usenixsecurity23/presentation/sajadmanesh",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "published_at": null,
+  "authors": [
+    "Soroush Sajadmanesh",
+    "Daniel Gatica-Perez"
+  ],
+  "supersedes": null
+}

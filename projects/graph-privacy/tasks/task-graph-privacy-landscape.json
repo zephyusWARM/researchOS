@@ -1,0 +1,18 @@
+{
+  "id": "task-graph-privacy-landscape",
+  "title": "Map the graph-privacy landscape and select course-project hypotheses",
+  "status": "active",
+  "question": "What is the evidence-backed 2019–2026 landscape of privacy in graph and relational machine learning, how do privacy unit, graph dependence, threat model, and release surface interact, and which open questions are reproducible and meaningful for an NTU AI Privacy final project?",
+  "created_at": "2026-09-22T14:29:50+08:00",
+  "updated_at": "2026-09-22T14:29:50+08:00",
+  "max_active_runs": 1,
+  "parent_task_id": null,
+  "acceptance_criteria": [
+    "Build a primary-source-backed taxonomy by protected unit, threat model, release surface, and guarantee type.",
+    "Map major 2019–2026 DP, attack/auditing, unlearning, and private relational/pretrained-learning branches.",
+    "Include Eli Chien's graph-privacy lineage while red-teaming over-centering one lab.",
+    "Distinguish formal DP, certified unlearning, cryptographic confidentiality, and empirical attack resistance.",
+    "Identify reproducible code, datasets, and compute for the strongest hypotheses.",
+    "Produce 2–4 hypotheses with novelty risk, experimental cost, falsification evidence, and clear scope."
+  ]
+}

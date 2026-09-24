@@ -1,0 +1,22 @@
+{
+  "id": "task-full-corpus-taichung-changhua-awarded-eats-2026",
+  "project_id": "project-taichung-changhua-awarded-eats-2026",
+  "issue_url": "https://github.com/zephyusWARM/researchOS/issues/12",
+  "status": "active",
+  "phase": "P1_ENTITY_RESOLUTION",
+  "mission": "Resolve and deeply verify the full 2026 Taichung/Changhua 500碗 + Taichung Bib Gourmand universe before deriving practical recommendations.",
+  "completed": [
+    "P0: locked 85 raw award observations",
+    "Captured exact 500碗 selected dishes from authoritative images",
+    "Recorded Changhua text/image delimiter conflict",
+    "Recorded Michelin geography limitation"
+  ],
+  "next": [
+    "Resolve venue aliases, branches and cross-award overlap candidates",
+    "Attach canonical addresses/districts and current operational status",
+    "Verify current prices and awarded-dish availability venue by venue",
+    "Build red-team evidence ledger",
+    "Create practical route/cluster views only after coverage threshold is met"
+  ],
+  "write_policy": "Batch only meaningful epistemic deltas; avoid high-frequency commits."
+}

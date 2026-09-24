@@ -1,0 +1,23 @@
+{
+  "id": "run-taichung-changhua-awarded-eats-bootstrap-20260924",
+  "project_id": "project-taichung-changhua-awarded-eats-2026",
+  "issue_url": "https://github.com/zephyusWARM/researchOS/issues/12",
+  "started_at": "2026-09-24T21:14:00+08:00",
+  "completed_at": "2026-09-24T21:20:00+08:00",
+  "phase": "P0_CORPUS_LOCK",
+  "status": "complete",
+  "outputs": [
+    "README.md",
+    "PROGRAM.md",
+    "project.json",
+    "data/award-universe-2026.json",
+    "tasks/task-full-corpus-taichung-changhua-awarded-eats-2026.json"
+  ],
+  "observations": {
+    "raw_award_observations": 85,
+    "taichung_500bowls": 33,
+    "changhua_500bowls": 29,
+    "taichung_bib_gourmand": 23
+  },
+  "key_delta": "Established a canonical current 2026 award universe and fixed the Changhua delimiter defect using the award images."
+}

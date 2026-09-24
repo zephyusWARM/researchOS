@@ -1,0 +1,871 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-24T21:20:00+08:00",
+  "scope": {
+    "regions": [
+      "台中",
+      "彰化"
+    ],
+    "award_year": 2026
+  },
+  "counts": {
+    "taichung_500bowls": 33,
+    "changhua_500bowls": 29,
+    "taichung_bib_gourmand": 23,
+    "raw_award_observations": 85
+  },
+  "source_notes": [
+    "500碗 official article states that images are authoritative if text has omissions or errors.",
+    "The official 500碗 text concatenates 吳頂釣魚場 and 社口水煎包; authoritative images show them as two separate Changhua award observations.",
+    "MICHELIN Guide Taiwan 2026 covers Taichung but not Changhua; no Changhua Bib universe exists for 2026."
+  ],
+  "sources": [
+    {
+      "id": "SRC-500B-2026-OFFICIAL",
+      "type": "official",
+      "url": "https://500times.udn.com/wtimes/story/123497/9547367",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "id": "SRC-MICHELIN-2026-BIB-TXG",
+      "type": "official",
+      "url": "https://guide.michelin.com/tw/zh_TW/taichung-region/taichung/restaurants/bib-gourmand",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "id": "SRC-MICHELIN-2026-SCOPE",
+      "type": "official",
+      "url": "https://guide.michelin.com/tw/zh_TW/event/mgrctw2026-savethedate",
+      "checked_at": "2026-09-24"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "500B-2026-TXG-01",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "金饌脆皮烤鴨",
+      "award_level": 3,
+      "selected_dish": "一鴨二吃",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-02",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "日棧飯糰",
+      "award_level": 2,
+      "selected_dish": "飯糰",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-03",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "合作街大麵羹",
+      "award_level": 2,
+      "selected_dish": "大麵羹",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-04",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "TAKU 牛丼專賣",
+      "award_level": 1,
+      "selected_dish": "經典雙味牛丼",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-05",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "三鮮湯包",
+      "award_level": 1,
+      "selected_dish": "鮮瓜湯包",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-06",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "大雅牛肉麵",
+      "award_level": 1,
+      "selected_dish": "牛肉麵",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-07",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "大雅炸雞",
+      "award_level": 1,
+      "selected_dish": "炸雞翅",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-08",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "五市肉包",
+      "award_level": 1,
+      "selected_dish": "意麵（乾）",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-09",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "水湳臭豆腐",
+      "award_level": 1,
+      "selected_dish": "臭豆腐",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-10",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "主觀廚房.Subjective taste",
+      "award_level": 1,
+      "selected_dish": "牛魔王雙層牛肉堡",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-11",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "台中唐太盅養生燉品甜湯",
+      "award_level": 1,
+      "selected_dish": "十全藥膳豬腳盅",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-12",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "旱溪肉圓",
+      "award_level": 1,
+      "selected_dish": "肉圓",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-13",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "北屯佳賓黑白切",
+      "award_level": 1,
+      "selected_dish": "三杯中卷與鵝肉",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-14",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "東勢牛稼莊",
+      "award_level": 1,
+      "selected_dish": "涼拌肚王",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-15",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "東興市魯肉義",
+      "award_level": 1,
+      "selected_dish": "肉燥飯",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-16",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "台南本產 阿文溫體牛肉湯",
+      "award_level": 1,
+      "selected_dish": "酸高麗菜牛肉",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-17",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "阿彰飯担",
+      "award_level": 1,
+      "selected_dish": "排骨飯",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-18",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "阿靜の潤餅-向上店",
+      "award_level": 1,
+      "selected_dish": "潤餅",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-19",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "南屯豬腳麵線",
+      "award_level": 1,
+      "selected_dish": "豬腳麵線",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-20",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "品嘉茶餐廳",
+      "award_level": 1,
+      "selected_dish": "馳名海南雞",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-21",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "炸粿生 三代老店",
+      "award_level": 1,
+      "selected_dish": "蚵嗲、豬血湯",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-22",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "珍品小吃",
+      "award_level": 1,
+      "selected_dish": "米粉芋",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-23",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "紅樹腳香菇肉羹",
+      "award_level": 1,
+      "selected_dish": "香菇肉羹",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-24",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "風飛沙小吃店",
+      "award_level": 1,
+      "selected_dish": "綜合湯",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-25",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "鹿港扁食",
+      "award_level": 1,
+      "selected_dish": "鮮蝦扁食湯",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-26",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "新社老街豆腐宗",
+      "award_level": 1,
+      "selected_dish": "炸排骨、三角圓",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-27",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "楊記老潼關肉夾饃（大慶夜市）",
+      "award_level": 1,
+      "selected_dish": "肉夾饃加蛋",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-28",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "萬順羹麵創始店",
+      "award_level": 1,
+      "selected_dish": "鹹湯圓",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-29",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "鄭記上海蟹殼黃小酥餅",
+      "award_level": 1,
+      "selected_dish": "蟹殼黃",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-30",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "曉明湯包",
+      "award_level": 1,
+      "selected_dish": "湯包",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-31",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "翰德正老牌蚵仔粥",
+      "award_level": 1,
+      "selected_dish": "蚵仔粥",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-32",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "藍山牛肉麵",
+      "award_level": 1,
+      "selected_dish": "半筋半肉牛肉麵",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-TXG-33",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "台中",
+      "venue": "正老牌豐原肉丸",
+      "award_level": 1,
+      "selected_dish": "肉丸",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-01",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "阿才竹筍粥",
+      "award_level": 1,
+      "selected_dish": "竹筍粥",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-02",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "ㄎㄚㄟ香菇肉羮",
+      "award_level": 1,
+      "selected_dish": "拉仔麵＋香菇肉羹",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-03",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "三代祖傳粿仔湯",
+      "award_level": 1,
+      "selected_dish": "粿仔（湯）",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-04",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "下午茶美食小館",
+      "award_level": 1,
+      "selected_dish": "鮮魯大腸",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-05",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "中正路肉圓仔湯",
+      "award_level": 1,
+      "selected_dish": "肉圓仔湯",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-06",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "五信豬腳麵線",
+      "award_level": 1,
+      "selected_dish": "芋頭排骨",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-07",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "手心蔥油餅",
+      "award_level": 1,
+      "selected_dish": "蔥油餅",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-08",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "台大牛肉爐",
+      "award_level": 1,
+      "selected_dish": "蘆筍炒牛心",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-09",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "好香蕃麥大王(菜園烤蕃麥)",
+      "award_level": 1,
+      "selected_dish": "烤蕃麥",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-10",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "老馬師肉包",
+      "award_level": 1,
+      "selected_dish": "香菇肉包",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-11",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "西門肉圓仔湯",
+      "award_level": 1,
+      "selected_dish": "肉圓仔湯",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-12",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "吳頂釣魚場",
+      "award_level": 1,
+      "selected_dish": "鹽烤台灣鯛",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-13",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "社口水煎包",
+      "award_level": 1,
+      "selected_dish": "水煎包",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-14",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "阿亮四神湯",
+      "award_level": 1,
+      "selected_dish": "綜合四神湯",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-15",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "阿洲蛤仔麵",
+      "award_level": 1,
+      "selected_dish": "蛤仔麵",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-16",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "正老店阿美高麗菜飯",
+      "award_level": 1,
+      "selected_dish": "高麗菜飯",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-17",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "阿美燒烤",
+      "award_level": 1,
+      "selected_dish": "滷雞爪",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-18",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "阿樹擔仔麵",
+      "award_level": 1,
+      "selected_dish": "蛤仔麵",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-19",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "巷仔內蚵仔炸",
+      "award_level": 1,
+      "selected_dish": "蚵仔炸",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-20",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "津津餛飩麵",
+      "award_level": 1,
+      "selected_dish": "餛飩麵",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-21",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "珍北平餡餅",
+      "award_level": 1,
+      "selected_dish": "豬肉餡餅",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-22",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "酒室宋宅",
+      "award_level": 1,
+      "selected_dish": "手工私房炸物",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-23",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "魚市爌肉飯",
+      "award_level": 1,
+      "selected_dish": "爌肉飯（圈仔）",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-24",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "進發早點",
+      "award_level": 1,
+      "selected_dish": "漢堡",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-25",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "黃家鱟殼炒蚵仔麵",
+      "award_level": 1,
+      "selected_dish": "鱟殼炒蚵仔麵",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-26",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "過溝仔肉圓王",
+      "award_level": 1,
+      "selected_dish": "肉圓",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-27",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "趙記素食",
+      "award_level": 1,
+      "selected_dish": "黃麵（乾）＋滷豆皮包",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-28",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "鴨頭家東山鴨頭",
+      "award_level": 1,
+      "selected_dish": "招牌豆皮",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "500B-2026-CHA-29",
+      "award_system": "500碗",
+      "year": 2026,
+      "region": "彰化",
+      "venue": "關帝廟口無名發財車",
+      "award_level": 1,
+      "selected_dish": "山藥排骨燉露",
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-01",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "曙光居",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-02",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "可口牛肉麵",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-03",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "裡小樓",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-04",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "夜間部爌肉飯",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-05",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "功夫上海手工魚丸",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-06",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "富狀元豬腳",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-07",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "羅家古早味 (南屯)",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-08",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "繡球",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-09",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "滬舍餘味 (南屯)",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-10",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "東沐。食在",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-11",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "好菜 (西區)",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-12",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "馨苑 (西區)",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-13",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "富鼎旺 (中區)",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-14",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "富貴亭",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-15",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "阿坤麵",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-16",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "上海未名麵點",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-17",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "范記金之園 (中區)",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-18",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "醉月樓",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-19",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "台中肉員",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-20",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "彭城堂",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-21",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "鳳記鵝肉老店",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-22",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "老士官擀麵",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    },
+    {
+      "observation_id": "BIB-2026-TXG-23",
+      "award_system": "MICHELIN Bib Gourmand",
+      "year": 2026,
+      "region": "台中",
+      "venue": "牛稼莊",
+      "selected_dish": null,
+      "entity_status": "UNRESOLVED"
+    }
+  ]
+}

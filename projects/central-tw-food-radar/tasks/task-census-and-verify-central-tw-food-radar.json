@@ -1,0 +1,21 @@
+{
+  "id": "task-census-and-verify-central-tw-food-radar",
+  "title": "Census and verify Taichung–Changhua 500碗 × Bib Gourmand candidates",
+  "status": "active",
+  "question": "Across Taichung and Changhua, which restaurants surfaced by 2026 500碗 or the 2026 Taichung MICHELIN Bib Gourmand are currently operating, still serve the relevant food, show durable recognition or cross-guide signal, and remain genuinely worth allocating a meal slot to after logistics and negative-evidence checks?",
+  "created_at": "2026-09-24T21:14:00+08:00",
+  "updated_at": "2026-09-24T21:14:00+08:00",
+  "max_active_runs": 1,
+  "parent_task_id": null,
+  "acceptance_criteria": [
+    "Entity-resolve the complete latest-2026 Taichung and Changhua 500碗 corpus and 2026 Taichung Bib Gourmand corpus.",
+    "Preserve aliases, branch ambiguity, source-rendering defects, and unresolved duplicates explicitly.",
+    "Backfill 2023–2025 500碗 and prior MICHELIN retention for current candidates and notable former high-award shops.",
+    "For high-information candidates, verify current operating status, relevant dish availability, price, hours, queue/sell-out risk, and ordering friction.",
+    "Run a deliberate recent negative-evidence pass before a trip-worthiness conclusion.",
+    "Do not treat Changhua's lack of Bib Gourmand as negative evidence because Changhua is outside the 2026 MICHELIN Guide Taiwan scope.",
+    "Produce geography/daypart clusters only from sufficiently fresh verified candidates.",
+    "Persist only material Source→Evidence→Claim changes."
+  ],
+  "issue_url": "https://github.com/zephyusWARM/researchOS/issues/13"
+}

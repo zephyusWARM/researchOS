@@ -1,0 +1,13 @@
+{
+  "id": "claim-changhua-michelin-scope-r001",
+  "claim_key": "changhua-michelin-scope",
+  "revision": 1,
+  "statement": "A Changhua restaurant's absence from the 2026 MICHELIN Bib Gourmand list should not be treated as negative evidence because Changhua is outside MICHELIN Guide Taiwan 2026's stated geographic coverage.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-michelin-scope-no-changhua-2026"
+  ],
+  "created_at": "2026-09-24T21:14:00+08:00",
+  "supersedes": null,
+  "notes": "Important comparability constraint for Taichung-versus-Changhua analysis."
+}

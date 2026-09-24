@@ -1,0 +1,11 @@
+{
+  "id": "run-central-tw-food-bootstrap-20260924",
+  "task_id": "task-census-and-verify-central-tw-food-radar",
+  "status": "succeeded",
+  "started_at": "2026-09-24T21:14:00+08:00",
+  "ended_at": "2026-09-24T21:38:00+08:00",
+  "base_commit": "10d1626bfd30b3078f578382e91cddf8551a713e",
+  "worker": "ChatGPT GPT-5.6 Sol",
+  "summary": "Bootstrapped a durable Taichung–Changhua food research line. Defined the latest-2026 500碗 and Taichung Bib Gourmand corpus, preserved the MICHELIN geographic-scope caveat for Changhua, documented a 500碗 Changhua text-rendering/entity-normalization defect, established the first high-information verification queue, and added an operational-fragility lead for Changhua.",
+  "termination_reason": "Durable census and research protocol established; next high-value work is exact entity resolution, historical-recognition backfill, and current first-party verification of the highest-information candidates."
+}

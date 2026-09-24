@@ -1,0 +1,9 @@
+{
+  "id": "ev-dwork-2011-mechanisms",
+  "source_id": "src-dwork-2011-firm-foundation",
+  "evidence_type": "paraphrase",
+  "statement": "The article develops global sensitivity, states and proves the Laplace mechanism guarantee, discusses repeated/adaptive queries and privacy budget, and introduces the exponential mechanism.",
+  "locator": "PDF pp. 4–6; Definition 3, Theorem 4, 'Histogram Queries', 'When Noise Makes No Sense'",
+  "captured_at": "2026-09-23T10:15:00+08:00",
+  "notes": "Evidence that this short article is mathematically substantive despite broad accessibility."
+}

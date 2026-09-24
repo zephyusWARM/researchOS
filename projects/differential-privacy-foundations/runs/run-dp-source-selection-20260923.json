@@ -1,0 +1,11 @@
+{
+  "id": "run-dp-source-selection-20260923",
+  "task_id": "task-dp-foundations-map",
+  "status": "succeeded",
+  "started_at": "2026-09-23T10:15:00+08:00",
+  "ended_at": "2026-09-23T10:15:00+08:00",
+  "base_commit": "b811cc8d8fde09c1498ef128c5e43f2926e1cb00",
+  "worker": "ChatGPT GPT-5.6 Sol",
+  "summary": "Compared candidate sources by intended audience, mathematical depth, dependency coverage, and modernity. Provisional hierarchy: Dwork-Roth 2014 as single-source spine; Dwork 2011 if literally constrained to one article; Wood et al. 2018 as Stage-0 conceptual primer; Ponomareva et al. 2023 as modern DP-ML bridge.",
+  "termination_reason": "First source-selection milestone reached; modern accounting lineage remains active work under the parent task."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "task-dp-foundations-map",
+  "title": "Validate the DP learning spine and map foundations to modern DP-ML",
+  "status": "active",
+  "question": "Which single source best serves as a rigorous learning spine for differential privacy, what should be used if the format must literally be one paper, and what post-2014 concepts are required for modern DP/DP-ML literacy?",
+  "created_at": "2026-09-23T10:15:00+08:00",
+  "updated_at": "2026-09-23T10:15:00+08:00",
+  "max_active_runs": 1,
+  "parent_task_id": null,
+  "acceptance_criteria": [
+    "Compare the non-technical primer, foundational article, comprehensive monograph, and modern DP-ML guide with primary-source evidence.",
+    "Separate conceptual accessibility, mathematical completeness, and modern practical coverage.",
+    "Map adjacency and the DP definition through sensitivity, mechanisms, composition, approximate DP, and modern accounting.",
+    "Red-team whether Dwork-Roth 2014 is too old to remain the foundational spine.",
+    "Identify the minimum modern supplement for DP-SGD/privacy-accounting literacy.",
+    "Create derivation-based mastery gates and bound unresolved uncertainty."
+  ]
+}

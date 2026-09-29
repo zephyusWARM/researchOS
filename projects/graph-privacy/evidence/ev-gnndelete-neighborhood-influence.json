@@ -1,0 +1,9 @@
+{
+  "id": "ev-gnndelete-neighborhood-influence",
+  "source_id": "src-gnndelete-iclr-2023",
+  "evidence_type": "paraphrase",
+  "statement": "GNNDelete explicitly treats neighborhood influence as an unlearning requirement because deleted graph elements affect neighboring representations.",
+  "locator": "Abstract / method properties",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "notes": ""
+}

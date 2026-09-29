@@ -1,0 +1,9 @@
+{
+  "id": "ev-nri-latent-graph-from-trajectories",
+  "source_id": "src-nri-icml-2018",
+  "evidence_type": "paraphrase",
+  "statement": "NRI uses a variational latent code representing the interaction graph and learns to recover interactions jointly with system dynamics from observational trajectories.",
+  "locator": "Abstract",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "notes": ""
+}

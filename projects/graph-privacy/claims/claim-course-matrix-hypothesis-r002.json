@@ -1,0 +1,15 @@
+{
+  "id": "claim-course-matrix-hypothesis-r002",
+  "claim_key": "course-matrix-hypothesis",
+  "revision": 2,
+  "statement": "The original broad H1—crossing graph DP granularity with empirical attacks—is insufficiently novel as a standalone final-project contribution because important cells are already covered: node-DP versus node membership inference, edge-DP versus graph-level topology inference, and graph-structure-aware membership auditing.",
+  "status": "disputed",
+  "evidence_ids": [
+    "ev-gap-already-audits-node-mia",
+    "ev-ccs-edge-dp-not-topology-private",
+    "ev-popets-graph-structure-audit-dependence"
+  ],
+  "supersedes": "claim-course-matrix-hypothesis-r001",
+  "notes": "The matrix remains useful as a survey/benchmark scaffold, but novelty requires a much narrower unmatched cell or methodological contribution.",
+  "created_at": "2026-09-29T13:12:00+08:00"
+}

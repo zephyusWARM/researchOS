@@ -1,0 +1,9 @@
+{
+  "id": "ev-imprint-unlearned-mia",
+  "source_id": "src-imprint-aaai-2026",
+  "evidence_type": "paraphrase",
+  "statement": "AAAI 2026 shows that unlearned GNNs can retain distributional imprints that enable membership inference of forgotten data even without comparing pre- and post-unlearning models.",
+  "locator": "Abstract / attack setting",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "notes": ""
+}

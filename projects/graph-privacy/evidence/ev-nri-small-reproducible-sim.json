@@ -1,0 +1,9 @@
+{
+  "id": "ev-nri-small-reproducible-sim",
+  "source_id": "src-nri-reimplementation-2022",
+  "evidence_type": "paraphrase",
+  "statement": "A later NRI reimplementation includes synthetic data generation and states that GPU is not required for the basic training/testing workflow, making a small spring-system experiment feasible.",
+  "locator": "README / prerequisites and training",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "notes": ""
+}

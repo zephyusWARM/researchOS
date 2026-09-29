@@ -1,0 +1,16 @@
+{
+  "id": "claim-neighbor-unlearning-broad-idea-crowded-r001",
+  "claim_key": "neighbor-unlearning-broad-idea-crowded",
+  "revision": 1,
+  "statement": "A broad project that merely checks whether graph unlearning affects or leaks through neighbors is already substantially occupied by neighborhood-aware unlearning methods and 2025–2026 attacks on residual unlearning traces.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-gnndelete-neighborhood-influence",
+    "ev-agu-affected-neighbors",
+    "ev-unlearning-inversion-local-trace",
+    "ev-imprint-unlearned-mia"
+  ],
+  "supersedes": null,
+  "notes": "A narrower privacy-spillover-radius formulation may still be viable, but novelty has not been established.",
+  "created_at": "2026-09-29T13:12:00+08:00"
+}

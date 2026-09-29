@@ -1,0 +1,16 @@
+{
+  "id": "src-nri-icml-2018",
+  "title": "Neural Relational Inference for Interacting Systems",
+  "source_type": "paper",
+  "locator": "https://proceedings.mlr.press/v80/kipf18a.html",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "published_at": null,
+  "authors": [
+    "Thomas Kipf",
+    "Ethan Fetaya",
+    "Kuan-Chieh Wang",
+    "Max Welling",
+    "Richard Zemel"
+  ],
+  "supersedes": null
+}

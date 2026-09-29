@@ -1,0 +1,16 @@
+{
+  "id": "src-unlearning-inversion-wsdm-2026",
+  "title": "Unlearning Inversion Attacks for Graph Neural Networks",
+  "source_type": "paper",
+  "locator": "https://arxiv.org/abs/2506.00808",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "published_at": null,
+  "authors": [
+    "Jiahao Zhang",
+    "Yilong Wang",
+    "Zhiwei Zhang",
+    "Xiaorui Liu",
+    "Suhang Wang"
+  ],
+  "supersedes": null
+}

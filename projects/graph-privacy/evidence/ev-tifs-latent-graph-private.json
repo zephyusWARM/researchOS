@@ -1,0 +1,9 @@
+{
+  "id": "ev-tifs-latent-graph-private",
+  "source_id": "src-latent-info-privacy-tifs-2023",
+  "evidence_type": "paraphrase",
+  "statement": "IEEE TIFS 2023 explicitly treats latent graph structure as private information and studies obfuscating latent graph structure while retaining data utility.",
+  "locator": "Abstract",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "notes": ""
+}

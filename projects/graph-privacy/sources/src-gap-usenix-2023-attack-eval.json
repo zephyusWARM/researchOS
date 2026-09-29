@@ -1,0 +1,15 @@
+{
+  "id": "src-gap-usenix-2023-attack-eval",
+  "title": "GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation",
+  "source_type": "paper",
+  "locator": "https://arxiv.org/abs/2203.00949",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "published_at": null,
+  "authors": [
+    "Sina Sajadmanesh",
+    "Ali Shahin Shamsabadi",
+    "Aurélien Bellet",
+    "Daniel Gatica-Perez"
+  ],
+  "supersedes": null
+}

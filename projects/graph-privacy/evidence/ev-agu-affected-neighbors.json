@@ -1,0 +1,9 @@
+{
+  "id": "ev-agu-affected-neighbors",
+  "source_id": "src-agu-ijcai-2025",
+  "evidence_type": "paraphrase",
+  "statement": "Adaptive Graph Unlearning explicitly identifies neighbors affected by deleted elements for different GNN architectures and uses them in the unlearning procedure.",
+  "locator": "Abstract / stated contribution",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "notes": ""
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ev-global-property-distinct-from-record-privacy",
+  "source_id": "src-distribution-privacy-aistats-2023",
+  "evidence_type": "paraphrase",
+  "statement": "The paper treats confidentiality of dataset properties aggregated over many records as a privacy objective distinct from the privacy of individual records, and reports that distribution-privacy mechanisms can outperform a crude group-DP baseline for protecting such global properties.",
+  "locator": "Abstract",
+  "captured_at": "2026-09-29T13:22:00+08:00",
+  "notes": "Relevant analogy for a latent interaction graph shared across many trajectory records; it does not by itself prove an NRI-specific guarantee."
+}

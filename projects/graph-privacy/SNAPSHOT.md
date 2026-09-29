@@ -52,3 +52,8 @@ Create a one-page protected-object matrix and check implementation feasibility:
 - topology attack/recovery metrics;
 - output perturbation candidate for Setting A;
 - sensitivity/stability assumptions for topology adjacency in Setting B.
+
+
+## DP rigor gate
+
+As of 2026-09-29, all differential-privacy claims in this program are subject to `DP_RIGOR_PROTOCOL.md`. Top venue or author reputation is not sufficient evidence. Any theorem-level privacy statement must be reconstructed from the exact adjacency relation, mechanism, quantifiers, support assumptions, sensitivity, privacy accountant, and implementation. Abstract-only claims cannot be marked supported.

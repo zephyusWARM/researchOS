@@ -190,3 +190,8 @@ For theorem-level claims, prefer one of:
 If not completed, mark the claim as proposed, plausible, disputed, contradicted, or unverified, and record the missing proof obligation.
 
 The goal is not paranoia. The goal is to make every symbol in the privacy statement auditable.
+
+
+## 15. Historical failure case
+
+See `CASE_STUDY_RDP_CONCURRENT_COMPOSITION.md`. The permanent lesson is: **published is a bibliographic status; verified is a mathematical status.** A broken proof must be distinguished from a false theorem, and version history must be audited before citing a privacy result.

@@ -1,0 +1,11 @@
+{
+  "id": "run-graph-privacy-deep-survey-20260929",
+  "task_id": "task-graph-privacy-landscape",
+  "status": "succeeded",
+  "started_at": "2026-09-29T14:28:00+08:00",
+  "ended_at": "2026-09-29T14:28:00+08:00",
+  "base_commit": "5af2506cefdc92ce11fa2f4abb2047ca66fa48b3",
+  "worker": "ChatGPT GPT-5.6 Sol",
+  "summary": "Completed a deep survey across graph DP, topology privacy, property/distribution privacy, private structure learning, attacks, and NRI. Corrected a material assumption: canonical NRI samples a fresh interaction graph per simulation, so the previous shared-topology formulation is a modified fixed-system setting. Split the research question into canonical per-instance/inference-time topology privacy and fixed-system/global-topology privacy; documented terminology collisions and the private-structure-learning vs structure-private-learning distinction.",
+  "termination_reason": "The literature map and data-generating semantics changed the project formulation enough to justify a durable milestone. Next work should move from broad survey to protected-object matrix and implementation feasibility."
+}

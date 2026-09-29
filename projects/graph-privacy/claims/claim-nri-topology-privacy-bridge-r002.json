@@ -1,0 +1,18 @@
+{
+  "id": "claim-nri-topology-privacy-bridge-r002",
+  "claim_key": "nri-topology-privacy-bridge",
+  "revision": 2,
+  "statement": "After correcting the canonical NRI data-generating process, the plausible research gap bifurcates into inference-time privacy of per-instance latent topology and global/topology privacy in a fixed-system NRI variant; targeted searches found dense adjacent literatures but no direct primary precedent that closes either NRI-specific formulation.",
+  "status": "proposed",
+  "evidence_ids": [
+    "ev-nri-graph-per-example-generator",
+    "ev-nri-samples-edges-each-trajectory",
+    "ev-acc-topology-dp-from-dynamics",
+    "ev-tifs-latent-graph-private",
+    "ev-private-mrf-structure-target",
+    "ev-private-causal-structure-target"
+  ],
+  "supersedes": "claim-nri-topology-privacy-bridge-r001",
+  "notes": "Absence of a found precedent is a search result, not proof of novelty. Continue targeted novelty checks before any publication-level claim.",
+  "created_at": "2026-09-29T14:28:00+08:00"
+}

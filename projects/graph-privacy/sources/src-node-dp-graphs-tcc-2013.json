@@ -1,0 +1,15 @@
+{
+  "id": "src-node-dp-graphs-tcc-2013",
+  "title": "Analyzing Graphs with Node Differential Privacy",
+  "source_type": "paper",
+  "locator": "https://doi.org/10.1007/978-3-642-36594-2_26",
+  "captured_at": "2026-09-29T14:28:00+08:00",
+  "published_at": null,
+  "authors": [
+    "Shiva Prasad Kasiviswanathan",
+    "Kobbi Nissim",
+    "Sofya Raskhodnikova",
+    "Adam Smith"
+  ],
+  "supersedes": null
+}

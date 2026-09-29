@@ -1,0 +1,16 @@
+{
+  "id": "claim-private-structure-vs-structure-private-r001",
+  "claim_key": "private-structure-vs-structure-private",
+  "revision": 1,
+  "statement": "Private structure learning and structure-private learning are distinct problems: the former learns graph/causal structure while protecting input records, whereas the latter treats the structure/topology itself as the sensitive secret.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-private-mrf-structure-target",
+    "ev-private-causal-structure-target",
+    "ev-acc-topology-dp-from-dynamics",
+    "ev-tifs-latent-graph-private"
+  ],
+  "supersedes": null,
+  "notes": "This distinction is central for positioning an NRI privacy project.",
+  "created_at": "2026-09-29T14:28:00+08:00"
+}

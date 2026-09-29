@@ -1,0 +1,9 @@
+{
+  "id": "ev-node-dp-unit-definition",
+  "source_id": "src-node-dp-graphs-tcc-2013",
+  "evidence_type": "paraphrase",
+  "statement": "Node differential privacy defines neighboring graphs through the addition/removal of a node together with its incident edges, illustrating how a stronger graph privacy unit creates high graph-statistic sensitivity.",
+  "locator": "Problem definition / node adjacency",
+  "captured_at": "2026-09-29T14:28:00+08:00",
+  "notes": ""
+}

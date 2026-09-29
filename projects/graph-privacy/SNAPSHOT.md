@@ -1,70 +1,54 @@
 # Snapshot
 
-Status: **active — formulation narrowed to privacy-granularity mismatch in latent relational inference**
+Status: **active — deep survey corrected the NRI data model and split the problem into two privacy settings**
 
-## Current task
+## Major correction
 
-`task-graph-privacy-landscape` — converge on a tractable final-project formulation. Tracking issue: #5.
+Canonical NRI does not use one fixed graph for all synthetic trajectories. The official generator samples a fresh edge graph per simulation/example.
 
-## Current working title
+The previous fixed-(G) formulation therefore describes a **modified fixed-system/system-identification setting**, not the canonical NRI benchmark.
 
-**Record-Level DP Is Not Topology Privacy: Privacy Granularity in Neural Relational Inference**
+## Current map
 
-## Core insight
+### Setting A — canonical NRI
+- one trajectory/example (x_i);
+- one latent graph (G_i);
+- graph varies across examples;
+- main privacy issue: training-record privacy vs inference-time privacy of a query’s latent topology.
 
-NRI learns a latent interaction graph from observational trajectories. If many trajectory records are generated under the same graph, the graph is a **shared/system-level property**, not an individual record.
+### Setting B — fixed system
+- many trajectories share one (G);
+- (G) is a global/system-level property;
+- main privacy issue: record privacy vs shared-topology privacy.
 
-This creates a privacy-unit mismatch:
+## Key taxonomy
 
-- **trajectory-record adjacency:** one observed trajectory is changed or removed;
-- **topology adjacency:** the underlying interaction graph changes by one edge.
+Five distinct privacy units/release settings must be kept separate:
+1. edge/relation privacy;
+2. node/entity privacy;
+3. whole graph as a training record;
+4. shared/global/latent topology privacy;
+5. inference-query privacy.
 
-A record-level DP mechanism only promises indistinguishability under the first relation. It should not automatically be interpreted as protecting the second.
+## Current gap signal
 
-This is consistent with broader privacy literature: AISTATS 2023 explicitly treats global properties aggregated over many records as a privacy object distinct from individual-record privacy and develops distribution-privacy mechanisms rather than relying on crude group DP.
+Targeted searches through 2026-09-29 found dense adjacent work but no direct primary paper that formulates formal topology privacy specifically for Kipf-style NRI / close neural latent-interaction inference.
 
-## Why this is stronger than the earlier H1/H2
+This is not proof of novelty.
 
-The 2026-09-29 red-team found the broad H1/H2 spaces crowded:
+## Candidate course directions
 
-- node-DP vs membership attacks already appears in GAP;
-- edge-DP vs graph-level topology inference is already studied;
-- graph unlearning already includes neighborhood influence, affected-neighbor methods, unlearning inversion, and post-unlearning membership attacks.
+- **A:** canonical NRI + inference-time topology privacy.
+- **B:** fixed-system NRI + record-DP vs topology-privacy granularity mismatch.
+- **C:** topology-adjacent formal DP for nonlinear relational inference as a stretch/theory extension.
 
-The latent-topology direction survives as a narrower question because it asks whether the **privacy unit itself is mis-specified** when relational structure is a shared latent variable.
-
-## Historical boundaries
-
-This is not a claim that topology privacy is new.
-
-- ACC 2015 protects consensus-network topology with a topology-adjacent DP mechanism.
-- IEEE TIFS 2023 treats latent graph structure as private information.
-- AISTATS 2023 distinguishes protection of global dataset properties from individual-record privacy.
-- NRI (ICML 2018) makes the underlying interaction graph an explicit learned latent variable.
-
-The candidate contribution is the intersection: modern neural relational inference + explicit privacy granularity + privacy–identifiability–prediction trade-off.
-
-## Minimal course experiment
-
-Use the 5-particle spring benchmark.
-
-- same latent graph (G), many trajectories;
-- non-private NRI;
-- trajectory-record-level DP-SGD NRI;
-- sweep epsilon and number of trajectories;
-- utility = trajectory prediction MSE;
-- topology leakage/identifiability = edge accuracy/AUROC and posterior entropy.
-
-If graph recovery remains useful under record-level DP, the correct interpretation is not “DP failed”; it is that record-level DP was not a topology-privacy guarantee.
-
-## Main unresolved question
-
-Can a useful **topology-adjacent** formal guarantee be adapted to nonlinear NRI dynamics, or should the course contribution stop after rigorously demonstrating the granularity mismatch and use topology perturbation only as an empirical baseline?
+For instructor discussion, A and B should be presented as distinct settings rather than merged into one claim.
 
 ## Next action
 
-Prepare an instructor-facing one-page formulation and verify:
-1. per-trajectory DP-SGD accounting assumptions for NRI;
-2. whether a directly comparable NRI/topology-privacy paper exists;
-3. small-system compute/runtime;
-4. whether topology adjacency can be bounded without turning the project into a full theory paper.
+Create a one-page protected-object matrix and check implementation feasibility:
+- per-example gradients for NRI training;
+- fixed-graph data generator;
+- topology attack/recovery metrics;
+- output perturbation candidate for Setting A;
+- sensitivity/stability assumptions for topology adjacency in Setting B.

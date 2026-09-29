@@ -1,0 +1,9 @@
+{
+  "id": "ev-private-causal-structure-target",
+  "source_id": "src-private-causal-neurips-2020",
+  "evidence_type": "paraphrase",
+  "statement": "Differentially private causal discovery learns causal graph structure from sensitive observational records while protecting the records used by the discovery procedure.",
+  "locator": "Problem statement",
+  "captured_at": "2026-09-29T14:28:00+08:00",
+  "notes": ""
+}

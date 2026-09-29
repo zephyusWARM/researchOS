@@ -1,0 +1,9 @@
+{
+  "id": "ev-nri-graph-per-example-generator",
+  "source_id": "src-nri-official-generator",
+  "evidence_type": "paraphrase",
+  "statement": "The official NRI dataset generator loops over simulations and calls the simulator once per example, storing an edge matrix returned for each simulation rather than reusing one global edge matrix.",
+  "locator": "generate_dataset / generate_dataset() loop",
+  "captured_at": "2026-09-29T14:28:00+08:00",
+  "notes": ""
+}

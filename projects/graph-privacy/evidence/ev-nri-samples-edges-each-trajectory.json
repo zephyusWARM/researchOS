@@ -1,0 +1,9 @@
+{
+  "id": "ev-nri-samples-edges-each-trajectory",
+  "source_id": "src-nri-official-simulator",
+  "evidence_type": "paraphrase",
+  "statement": "SpringSim.sample_trajectory samples the spring edge matrix inside each call, so canonical synthetic NRI draws a new latent graph for each simulated trajectory/example.",
+  "locator": "SpringSim.sample_trajectory / edge sampling",
+  "captured_at": "2026-09-29T14:28:00+08:00",
+  "notes": ""
+}

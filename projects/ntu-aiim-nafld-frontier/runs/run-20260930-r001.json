@@ -1,0 +1,11 @@
+{
+  "id": "run-20260930-r001",
+  "task_id": "task-frontier-survey",
+  "status": "running",
+  "started_at": "2026-09-30T20:50:00+08:00",
+  "ended_at": null,
+  "base_commit": "9feb45e4d7fc9b0cfb7f48d2dc050cb20523e4c1",
+  "worker": "GPT-5.6 Sol",
+  "summary": "Initialized the NAFLD frontier-discovery survey; source collection and evidence extraction underway.",
+  "termination_reason": null
+}

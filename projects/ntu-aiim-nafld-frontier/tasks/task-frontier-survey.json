@@ -1,0 +1,20 @@
+{
+  "id": "task-frontier-survey",
+  "title": "Exhaustive frontier survey and problem discovery",
+  "status": "open",
+  "question": "What unresolved scientific questions can this exact longitudinal MJ NAFLD dataset answer unusually well, after accounting for existing NAFLD/MASLD, dynamic prediction, trajectory, pollution, and causal literature?",
+  "created_at": "2026-09-30T20:50:00+08:00",
+  "updated_at": "2026-09-30T20:50:00+08:00",
+  "max_active_runs": 1,
+  "parent_task_id": null,
+  "acceptance_criteria": [
+    "Reverse-engineered data-structure information map",
+    "Primary-literature landscape across five universes",
+    "Structured extraction for closest and field-defining papers",
+    "Question × data-structure saturation map with reverse-search falsification",
+    "5–10 red-teamed candidate scientific problems",
+    "Irreducible baselines for surviving questions",
+    "Top 3 directions ranked by scientific and feasibility criteria",
+    "Deep-learning-free answer to the most interesting scientific question"
+  ]
+}

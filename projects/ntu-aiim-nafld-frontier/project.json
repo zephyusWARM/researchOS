@@ -1,0 +1,8 @@
+{
+  "id": "project-ntu-aiim-nafld-frontier",
+  "title": "NTU AIIM NAFLD longitudinal cohort frontier problem discovery",
+  "status": "active",
+  "cutoff_date": "2026-09-30",
+  "created_at": "2026-09-30T20:50:00+08:00",
+  "quality_bar": "Problem first, information second, method last. Peer-reviewed primary literature first; exact cohort/outcome/method verification; strict separation of association, prediction, causal inference, and mechanism; novelty must survive reverse-search and red-team."
+}

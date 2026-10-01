@@ -1,0 +1,13 @@
+{
+  "id": "src-pufferfish-tods-2014",
+  "title": "Pufferfish: A Framework for Mathematical Privacy Definitions",
+  "source_type": "paper",
+  "locator": "https://doi.org/10.1145/2699446",
+  "captured_at": "2026-09-29T14:28:00+08:00",
+  "published_at": null,
+  "authors": [
+    "Daniel Kifer",
+    "Ashwin Machanavajjhala"
+  ],
+  "supersedes": null
+}

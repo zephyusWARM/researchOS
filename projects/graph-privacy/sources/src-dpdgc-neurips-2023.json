@@ -1,0 +1,16 @@
+{
+  "id": "src-dpdgc-neurips-2023",
+  "title": "Differentially Private Decoupled Graph Convolutions for Multigranular Topology Protection",
+  "source_type": "paper",
+  "locator": "https://papers.neurips.cc/paper_files/paper/2023/hash/8e3db2040672d85fd12e6313945594fe-Abstract-Conference.html",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "published_at": null,
+  "authors": [
+    "Eli Chien",
+    "Wei-Ning Chen",
+    "Olga Ohrimenko",
+    "Felix X. Yu",
+    "Hanlin Tang"
+  ],
+  "supersedes": null
+}

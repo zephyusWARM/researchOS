@@ -1,0 +1,17 @@
+{
+  "id": "claim-eli-graph-privacy-lineage-r001",
+  "claim_key": "eli-graph-privacy-lineage",
+  "revision": 1,
+  "statement": "Eli Chien's graph-privacy publication line progresses from multigranular topology protection (2023), to private graph diffusion (2024), to private graph-relational pretrained/LLM fine-tuning (2025), and entity-level differential privacy for relational learning (2025).",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-eli-graph-privacy-focus",
+    "ev-dpdgc-multigranular",
+    "ev-graph-diffusion-edge-dp",
+    "ev-pvgalm-coupled-relations",
+    "ev-entity-dp-coupled-sampling"
+  ],
+  "created_at": "2026-09-22T14:29:50+08:00",
+  "supersedes": null,
+  "notes": "Course-relevant anchor, not a claim that this is the whole field."
+}

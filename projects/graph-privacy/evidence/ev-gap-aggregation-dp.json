@@ -1,0 +1,9 @@
+{
+  "id": "ev-gap-aggregation-dp",
+  "source_id": "src-gap-usenix-2023",
+  "evidence_type": "paraphrase",
+  "statement": "GAP perturbs neighborhood aggregation to provide formal edge- or node-level differential privacy for graph neural networks.",
+  "locator": "Abstract / method overview",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "notes": ""
+}

@@ -1,0 +1,16 @@
+{
+  "id": "claim-nri-topology-privacy-bridge-r001",
+  "claim_key": "nri-topology-privacy-bridge",
+  "revision": 1,
+  "statement": "A defensible candidate research gap is to connect NRI-style neural latent interaction recovery from trajectories with an explicit topology-privacy formulation, then quantify the privacy–identifiability–prediction trade-off on a small synthetic dynamical system.",
+  "status": "proposed",
+  "evidence_ids": [
+    "ev-nri-latent-graph-from-trajectories",
+    "ev-acc-topology-dp-from-dynamics",
+    "ev-tifs-latent-graph-private",
+    "ev-nri-small-reproducible-sim"
+  ],
+  "supersedes": null,
+  "notes": "This is a gap hypothesis, not a proof of novelty. The next pass must search adjacent control, system-identification, and privacy literature for direct neural/NRI precedents.",
+  "created_at": "2026-09-29T13:12:00+08:00"
+}

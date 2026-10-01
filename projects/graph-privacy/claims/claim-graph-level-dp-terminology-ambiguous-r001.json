@@ -1,0 +1,14 @@
+{
+  "id": "claim-graph-level-dp-terminology-ambiguous-r001",
+  "claim_key": "graph-level-dp-terminology-ambiguous",
+  "revision": 1,
+  "statement": "The phrase 'graph-level differential privacy' is ambiguous across the literature: in whole-graph classification it can mean protecting one entire graph as one record, which is not the same privacy objective as protecting edges/topology inside a graph.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-wholegraph-record-unit",
+    "ev-node-dp-unit-definition"
+  ],
+  "supersedes": null,
+  "notes": "Always state the neighboring relation rather than relying on a granularity label.",
+  "created_at": "2026-09-29T14:28:00+08:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "claim-nri-two-privacy-settings-r001",
+  "claim_key": "nri-two-privacy-settings",
+  "revision": 1,
+  "statement": "NRI privacy should be split into two settings: canonical per-instance topology, where inference-query privacy is central, and fixed-system shared topology, where the graph is a global/system property and record-level adjacency differs from topology adjacency.",
+  "status": "proposed",
+  "evidence_ids": [
+    "ev-nri-graph-per-example-generator",
+    "ev-nri-samples-edges-each-trajectory",
+    "ev-pufferfish-custom-secrets",
+    "ev-global-property-distinct-from-record-privacy",
+    "ev-acc-topology-dp-from-dynamics"
+  ],
+  "supersedes": null,
+  "notes": "The fixed-system setting is scientifically natural but requires a modified benchmark or fixed-system dataset.",
+  "created_at": "2026-09-29T14:28:00+08:00"
+}

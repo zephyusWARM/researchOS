@@ -1,0 +1,9 @@
+{
+  "id": "ev-ccs-edge-dp-not-topology-private",
+  "source_id": "src-topology-inference-ccs-2025",
+  "evidence_type": "paraphrase",
+  "statement": "CCS 2025 reports that existing edge-level DP mechanisms are insufficient against graph-level topology inference, either failing to mitigate leakage or imposing severe utility loss.",
+  "locator": "Abstract / main finding",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "notes": ""
+}

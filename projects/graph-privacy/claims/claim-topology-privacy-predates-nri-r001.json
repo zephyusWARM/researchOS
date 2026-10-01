@@ -1,0 +1,14 @@
+{
+  "id": "claim-topology-privacy-predates-nri-r001",
+  "claim_key": "topology-privacy-predates-nri",
+  "revision": 1,
+  "statement": "Privacy of an inferred or latent network topology predates modern neural relational inference: prior work protects topology inferred from dynamical observations, and later work explicitly treats latent graph structure as private information.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-acc-topology-dp-from-dynamics",
+    "ev-tifs-latent-graph-private"
+  ],
+  "supersedes": null,
+  "notes": "This prevents an incorrect novelty claim that latent-topology privacy itself is new.",
+  "created_at": "2026-09-29T13:12:00+08:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "src-topology-inference-ccs-2025",
+  "title": "Safeguarding Graph Neural Networks against Topology Inference Attacks",
+  "source_type": "paper",
+  "locator": "https://arxiv.org/abs/2509.05429",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "published_at": null,
+  "authors": [
+    "Jie Fu",
+    "Yuan Hong",
+    "Zhili Chen",
+    "Wendy Hui Wang"
+  ],
+  "supersedes": null
+}

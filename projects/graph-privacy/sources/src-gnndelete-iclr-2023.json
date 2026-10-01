@@ -1,0 +1,16 @@
+{
+  "id": "src-gnndelete-iclr-2023",
+  "title": "GNNDelete: A General Strategy for Unlearning in Graph Neural Networks",
+  "source_type": "paper",
+  "locator": "https://arxiv.org/abs/2302.13406",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "published_at": null,
+  "authors": [
+    "Jiali Cheng",
+    "George Dasoulas",
+    "Huan He",
+    "Chirag Agarwal",
+    "Marinka Zitnik"
+  ],
+  "supersedes": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "claim-canonical-nri-per-example-topology-r001",
+  "claim_key": "canonical-nri-per-example-topology",
+  "revision": 1,
+  "statement": "In the canonical NRI synthetic benchmark, the interaction graph is sampled per simulation/example rather than held fixed across all trajectory records.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-nri-graph-per-example-generator",
+    "ev-nri-samples-edges-each-trajectory"
+  ],
+  "supersedes": null,
+  "notes": "This materially changes the privacy formulation: a shared-topology experiment is a deliberate fixed-system variant, not the default NRI generator.",
+  "created_at": "2026-09-29T14:28:00+08:00"
+}

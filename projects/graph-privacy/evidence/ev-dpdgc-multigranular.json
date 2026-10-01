@@ -1,0 +1,9 @@
+{
+  "id": "ev-dpdgc-multigranular",
+  "source_id": "src-dpdgc-neurips-2023",
+  "evidence_type": "paraphrase",
+  "statement": "The work motivates graph-specific privacy through coupled topology and proposes multigranular topology protection rather than treating all graph information as one undifferentiated record.",
+  "locator": "Abstract and problem formulation",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "notes": ""
+}

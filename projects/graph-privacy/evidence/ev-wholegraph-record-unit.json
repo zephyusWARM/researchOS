@@ -1,0 +1,9 @@
+{
+  "id": "ev-wholegraph-record-unit",
+  "source_id": "src-wholegraph-dp-tpami-2023",
+  "evidence_type": "paraphrase",
+  "statement": "In whole-graph classification, graph-level differential privacy treats each whole graph as a training record in a multi-graph dataset; this use of 'graph-level DP' is different from hiding topology within one graph.",
+  "locator": "Problem setting / adjacency unit",
+  "captured_at": "2026-09-29T14:28:00+08:00",
+  "notes": ""
+}

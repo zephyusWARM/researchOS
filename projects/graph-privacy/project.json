@@ -1,0 +1,12 @@
+{
+  "id": "project-graph-privacy",
+  "title": "Graph Privacy: differential privacy, attacks, unlearning, and relational learning",
+  "status": "active",
+  "cutoff_date": "2026-09-22",
+  "created_at": "2026-09-22T14:29:50+08:00",
+  "quality_bar": "Primary-source-first; separate privacy unit, threat model, release surface, formal guarantee, and empirical leakage; adversarially test novelty and reproducibility.",
+  "tracking_issue": 5,
+  "related_projects": [
+    "project-relational-structure-inference"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ev-gap-already-audits-node-mia",
+  "source_id": "src-gap-usenix-2023-attack-eval",
+  "evidence_type": "paraphrase",
+  "statement": "GAP evaluates node-level differential privacy against a node membership-inference attack, so a generic DP-versus-membership experiment is not by itself a new graph-privacy contribution.",
+  "locator": "Paper empirical privacy evaluation / node membership attack",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "notes": ""
+}

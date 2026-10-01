@@ -1,0 +1,11 @@
+{
+  "id": "run-graph-privacy-granularity-20260929",
+  "task_id": "task-graph-privacy-landscape",
+  "status": "succeeded",
+  "started_at": "2026-09-29T13:22:00+08:00",
+  "ended_at": "2026-09-29T13:22:00+08:00",
+  "base_commit": "7b2eeb3a75bd4ac2805159fea1b1686a32224a64",
+  "worker": "ChatGPT GPT-5.6 Sol",
+  "summary": "Sharpened the latent-topology direction into a privacy-granularity question: trajectory-record-level DP protects record membership, whereas a shared latent interaction graph is a system/global property requiring a different neighboring relation. Added AISTATS 2023 distribution-privacy evidence and an instructor-ready minimal experiment scaffold.",
+  "termination_reason": "The problem formulation became substantially more precise; next work should verify DP-SGD accounting and search for direct NRI/topology-privacy precedents rather than broaden the survey."
+}

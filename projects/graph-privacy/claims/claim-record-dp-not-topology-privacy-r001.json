@@ -1,0 +1,15 @@
+{
+  "id": "claim-record-dp-not-topology-privacy-r001",
+  "claim_key": "record-dp-not-topology-privacy",
+  "revision": 1,
+  "statement": "When many NRI trajectory records share the same latent interaction graph, trajectory-record-level differential privacy is not, by definition, a topology-privacy guarantee: changing/removing one trajectory and changing one latent interaction edge are different neighboring relations, and the latter can change the distribution of many records.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-nri-latent-graph-from-trajectories",
+    "ev-acc-topology-dp-from-dynamics",
+    "ev-global-property-distinct-from-record-privacy"
+  ],
+  "created_at": "2026-09-29T13:22:00+08:00",
+  "supersedes": null,
+  "notes": "This is a formulation claim about the protected unit, not an empirical claim that record-level DP necessarily permits successful topology inference at every privacy budget."
+}

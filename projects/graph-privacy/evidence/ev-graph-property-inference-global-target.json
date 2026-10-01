@@ -1,0 +1,9 @@
+{
+  "id": "ev-graph-property-inference-global-target",
+  "source_id": "src-graph-property-inference-neurips-2024",
+  "evidence_type": "paraphrase",
+  "statement": "Graph property inference studies leakage of aggregate/global properties from trained graph models, demonstrating that privacy attack targets can be broader than individual links or memberships.",
+  "locator": "Abstract / attack target",
+  "captured_at": "2026-09-29T14:28:00+08:00",
+  "notes": ""
+}

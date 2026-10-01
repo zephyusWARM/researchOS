@@ -1,0 +1,9 @@
+{
+  "id": "ev-private-mrf-structure-target",
+  "source_id": "src-private-mrf-icml-2020",
+  "evidence_type": "paraphrase",
+  "statement": "Private MRF learning recovers graphical structure/parameters while protecting the sample records used for learning; the graph is the learning target rather than the protected secret.",
+  "locator": "Problem statement",
+  "captured_at": "2026-09-29T14:28:00+08:00",
+  "notes": ""
+}

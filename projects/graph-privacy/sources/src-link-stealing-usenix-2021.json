@@ -1,0 +1,16 @@
+{
+  "id": "src-link-stealing-usenix-2021",
+  "title": "Stealing Links from Graph Neural Networks",
+  "source_type": "paper",
+  "locator": "https://www.usenix.org/conference/usenixsecurity21/presentation/he-xinlei",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "published_at": null,
+  "authors": [
+    "Xinlei He",
+    "Jinyuan Jia",
+    "Michael Backes",
+    "Neil Zhenqiang Gong",
+    "Yang Zhang"
+  ],
+  "supersedes": null
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ev-caribou-depth-privacy",
+  "source_id": "src-caribou-ndss-2026",
+  "evidence_type": "paraphrase",
+  "statement": "CARIBOU uses contractive message passing so graph privacy loss need not simply grow linearly with GNN depth, illustrating that architecture/stability assumptions can materially change privacy accounting.",
+  "locator": "Main contribution",
+  "captured_at": "2026-09-29T14:28:00+08:00",
+  "notes": ""
+}

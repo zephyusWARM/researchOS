@@ -1,0 +1,17 @@
+{
+  "id": "claim-graph-dependence-is-core-r001",
+  "claim_key": "graph-dependence-is-core",
+  "revision": 1,
+  "statement": "A central technical distinction of graph privacy is dependency: one node/entity or relation can influence many aggregation, diffusion, gradient, or relation-sampling computations, so the protected unit and sensitivity-control mechanism are first-class design choices.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-dpdgc-multigranular",
+    "ev-gap-aggregation-dp",
+    "ev-graph-diffusion-edge-dp",
+    "ev-pvgalm-coupled-relations",
+    "ev-entity-dp-coupled-sampling"
+  ],
+  "created_at": "2026-09-22T14:29:50+08:00",
+  "supersedes": null,
+  "notes": "Synthesis across primary sources; does not imply identical dependence in every graph-learning method."
+}

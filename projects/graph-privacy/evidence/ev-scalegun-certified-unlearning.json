@@ -1,0 +1,9 @@
+{
+  "id": "ev-scalegun-certified-unlearning",
+  "source_id": "src-scalegun-iclr-2025",
+  "evidence_type": "paraphrase",
+  "statement": "Certified graph unlearning has advanced toward scalable deletion of graph information, making the distinction between formal removal guarantees and empirical leakage an important evaluation axis.",
+  "locator": "Abstract / contribution summary",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "notes": ""
+}

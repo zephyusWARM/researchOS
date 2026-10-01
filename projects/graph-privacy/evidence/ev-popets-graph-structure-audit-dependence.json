@@ -1,0 +1,9 @@
+{
+  "id": "ev-popets-graph-structure-audit-dependence",
+  "source_id": "src-structure-mia-popets-2026",
+  "evidence_type": "paraphrase",
+  "statement": "PETS 2026 shows that graph construction and inference-time edge access materially affect membership-inference risk, and that standard membership-auditing results do not directly transfer to structurally dependent inductive graph settings.",
+  "locator": "Abstract / theoretical and empirical findings",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "notes": ""
+}

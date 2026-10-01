@@ -1,0 +1,10 @@
+{
+  "id": "src-nri-official-generator",
+  "title": "NRI official synthetic data generator",
+  "source_type": "code",
+  "locator": "https://github.com/ethanfetaya/NRI/blob/master/data/generate_dataset.py",
+  "captured_at": "2026-09-29T14:28:00+08:00",
+  "published_at": null,
+  "authors": [],
+  "supersedes": null
+}

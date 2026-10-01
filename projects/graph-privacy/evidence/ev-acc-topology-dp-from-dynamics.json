@@ -1,0 +1,9 @@
+{
+  "id": "ev-acc-topology-dp-from-dynamics",
+  "source_id": "src-topology-privacy-acc-2015",
+  "evidence_type": "paraphrase",
+  "statement": "ACC 2015 treats network topology itself as the private object and adds calibrated noise to dynamical outputs so an eavesdropper cannot reliably distinguish nearby topologies during topology identification.",
+  "locator": "Abstract / problem formulation",
+  "captured_at": "2026-09-29T13:12:00+08:00",
+  "notes": ""
+}

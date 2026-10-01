@@ -1,0 +1,9 @@
+{
+  "id": "ev-graph-diffusion-edge-dp",
+  "source_id": "src-dp-graph-diffusion-neurips-2024",
+  "evidence_type": "paraphrase",
+  "statement": "The paper treats graph diffusion as topology-sensitive and develops edge-level differential privacy with analysis tailored to iterative diffusion.",
+  "locator": "Abstract / main method",
+  "captured_at": "2026-09-22T14:29:50+08:00",
+  "notes": ""
+}

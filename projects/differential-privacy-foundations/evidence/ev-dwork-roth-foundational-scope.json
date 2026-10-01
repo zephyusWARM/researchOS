@@ -1,0 +1,9 @@
+{
+  "id": "ev-dwork-roth-foundational-scope",
+  "source_id": "src-dwork-roth-2014",
+  "evidence_type": "paraphrase",
+  "statement": "The monograph motivates the meaning of DP and devotes most of its treatment to fundamental techniques; its scope connects formal definitions, mechanisms, composition, query release, lower bounds, machine learning, and additional models.",
+  "locator": "Microsoft Research abstract; monograph table of contents and foundational chapters",
+  "captured_at": "2026-09-23T10:15:00+08:00",
+  "notes": "Evidence for a foundational spine, not a claim of complete post-2014 coverage."
+}

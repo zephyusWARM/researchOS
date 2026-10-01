@@ -1,0 +1,13 @@
+{
+  "id": "src-dwork-roth-2014",
+  "title": "The Algorithmic Foundations of Differential Privacy",
+  "source_type": "monograph",
+  "locator": "https://www.microsoft.com/en-us/research/publication/algorithmic-foundations-differential-privacy/",
+  "captured_at": "2026-09-23T10:15:00+08:00",
+  "published_at": "2014-08",
+  "authors": [
+    "Cynthia Dwork",
+    "Aaron Roth"
+  ],
+  "supersedes": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "claim-wood-role-r001",
+  "claim_key": "wood-primer-role",
+  "revision": 1,
+  "statement": "Wood et al. (2018) is well suited as a Stage-0 conceptual primer, but its intentionally limited mathematical formalism makes it a poor sole source for a learner whose mastery target includes deriving mechanisms, proving guarantees, and following modern privacy accounting.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-wood-intended-scope",
+    "ev-dwork-roth-foundational-scope"
+  ],
+  "created_at": "2026-09-23T10:15:00+08:00",
+  "supersedes": null,
+  "notes": "The second clause is an inference from stated scope plus the project's explicit mastery target."
+}

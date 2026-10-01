@@ -1,0 +1,18 @@
+{
+  "id": "task-five-faculty-audit-2021-2026",
+  "title": "Five-faculty research audit, 2021-10-01 to 2026-09-30",
+  "status": "active",
+  "question": "For NTU GICE faculty Chun-Ting Chou, Ping-Cheng Yeh, Tzu-Yu Liu, Pei-Yuan Wu, and Ming-Syan Chen, what is the deduplicated, source-traceable publication corpus from 2021-10-01 through 2026-09-30, what roles did each professor play, and which research lines are core, emerging, occasional collaborations, or declining?",
+  "created_at": "2026-10-01T16:42:00+08:00",
+  "updated_at": "2026-10-01T16:42:00+08:00",
+  "max_active_runs": 1,
+  "parent_task_id": "task-phase2-full-corpus-scan",
+  "acceptance_criteria": [
+    "cross-source corpus built for all five faculty through 2026-09-30",
+    "same-name authors disambiguated",
+    "preprint-to-formal-publication duplicates reconciled",
+    "faculty role annotated where evidence permits",
+    "research lines classified with year-bounded representative paper evidence",
+    "special hypotheses on Chou, Yeh, Liu, Wu, and Chen explicitly tested"
+  ]
+}

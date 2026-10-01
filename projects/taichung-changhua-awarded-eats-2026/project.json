@@ -1,0 +1,9 @@
+{
+  "id": "project-taichung-changhua-awarded-eats-2026",
+  "title": "Taichung–Changhua 2026 Awarded Eats: 500碗 + Bib Gourmand",
+  "status": "active",
+  "cutoff_date": "2026-09-24",
+  "created_at": "2026-09-24T21:19:17+08:00",
+  "issue_url": "https://github.com/zephyusWARM/researchOS/issues/12",
+  "quality_bar": "Full-corpus first, dish-vs-venue semantics preserved, branch-aware entity resolution, current menu/operations verification, adversarial negative-evidence search, and provenance-preserving."
+}

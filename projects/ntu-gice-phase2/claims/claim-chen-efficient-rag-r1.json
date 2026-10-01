@@ -1,0 +1,14 @@
+{
+  "id": "claim-chen-efficient-rag-r1",
+  "claim_key": "faculty.chen.efficient_ai_rag",
+  "revision": 1,
+  "statement": "By the 2026-09-30 cutoff, Ming-Syan Chen's Efficient AI/model-compression/edge-inference work is an established core line, while RAG/local-LLM systems are a genuine emerging main line supported by multiple 2025 theses and 2026 papers rather than isolated collaborations.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-chen-efficient-ai-20261001",
+    "ev-chen-rag-theses-20261001",
+    "ev-chen-rag-pakdd-20261001"
+  ],
+  "created_at": "2026-10-01T17:18:00+08:00",
+  "supersedes": null
+}

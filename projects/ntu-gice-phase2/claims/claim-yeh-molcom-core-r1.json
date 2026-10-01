@@ -1,0 +1,13 @@
+{
+  "id": "claim-yeh-molcom-core-r1",
+  "claim_key": "faculty.yeh.molecular_communication_core",
+  "revision": 1,
+  "statement": "Molecular Communication remains a core Ping-Cheng Yeh research line in 2026, with direct student lineage and renewed 2025-26 channel-modeling/field-assisted work; biomedical-signal ML and pronunciation assessment are secondary collaborative lines.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-yeh-molcom-20261001",
+    "ev-yeh-student-lineage-20261001"
+  ],
+  "created_at": "2026-10-01T17:18:00+08:00",
+  "supersedes": null
+}

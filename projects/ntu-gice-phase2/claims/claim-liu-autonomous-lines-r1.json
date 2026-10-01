@@ -1,0 +1,13 @@
+{
+  "id": "claim-liu-autonomous-lines-r1",
+  "claim_key": "faculty.liu.autonomous_m2lab_lines",
+  "revision": 1,
+  "statement": "Tzu-Yu Liu's autonomous NTU M2Lab program begins after her Aug/Sep 2023 NTU start and is best represented by cancer heterogeneity/digital cells, longitudinal biomedical learning/digital twins, and MIL plus multimodal/multi-omics integration; Freenome-era work is lineage, not NTU-lab autonomy evidence.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-liu-program-20261001",
+    "ev-liu-ntu-start-20261001"
+  ],
+  "created_at": "2026-10-01T17:18:00+08:00",
+  "supersedes": null
+}

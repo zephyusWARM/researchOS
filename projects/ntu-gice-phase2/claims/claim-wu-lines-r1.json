@@ -1,0 +1,12 @@
+{
+  "id": "claim-wu-lines-r1",
+  "claim_key": "faculty.wu.line_stability",
+  "revision": 1,
+  "statement": "Pei-Yuan Wu has durable core lines in privacy/security, RL/learning theory, and 3D vision/sensing; smart manufacturing is real but thinner, while LLM reasoning/mechanistic interpretability is a distinct emerging 2025-26 line.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-wu-pub-continuity-20261001"
+  ],
+  "created_at": "2026-10-01T17:18:00+08:00",
+  "supersedes": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "claim-chou-research-center-r1",
+  "claim_key": "faculty.chou.recent_research_center",
+  "revision": 1,
+  "statement": "For 2021-10-01 through 2026-09-30, Chun-Ting Chou is best remembered as a wireless/IoT/networked-systems faculty member with sparse recent archival output and some smart-mobility/data-driven advising; the evidence does not support relabeling Edge AI or computer vision as an autonomous core line.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-chou-sparse-recent-20261001",
+    "ev-chou-edge-role-20261001",
+    "ev-chou-lastmile-20261001"
+  ],
+  "created_at": "2026-10-01T17:18:00+08:00",
+  "supersedes": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "claim-current-corpus-r001",
+  "claim_key": "current-2026-corpus",
+  "revision": 1,
+  "statement": "As of 2026-09-24, the latest discovery corpus contains 62 500碗 2026 award entries across Taichung and Changhua plus 23 Taichung MICHELIN Bib Gourmand establishments. After merging the obvious 東勢牛稼莊 / 牛稼莊 alias, the union is provisionally 84 unique establishments, with full entity resolution still pending.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-500bowls-central-counts-2026",
+    "ev-michelin-taichung-bib-2026"
+  ],
+  "created_at": "2026-09-24T21:14:00+08:00",
+  "supersedes": null,
+  "notes": "The 84 count is provisional because exact branch/entity normalization has not yet been completed for every name."
+}

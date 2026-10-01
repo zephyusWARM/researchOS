@@ -1,0 +1,9 @@
+{
+  "id": "project-central-tw-food-radar",
+  "title": "Central Taiwan Food Radar: 500碗 × MICHELIN Bib Gourmand",
+  "status": "active",
+  "cutoff_date": "2026-09-24",
+  "created_at": "2026-09-24T21:14:00+08:00",
+  "quality_bar": "Current-first, source-backed, entity-resolved, historical-signal-aware, logistics-aware, adversarial, and low-frequency high-information persistence.",
+  "issue_url": "https://github.com/zephyusWARM/researchOS/issues/13"
+}

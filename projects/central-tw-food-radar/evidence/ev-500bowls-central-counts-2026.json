@@ -1,0 +1,9 @@
+{
+  "id": "ev-500bowls-central-counts-2026",
+  "source_id": "src-500bowls-2026-region-counts",
+  "evidence_type": "observation",
+  "statement": "The 2026 500碗 regional summary reports 33 winning establishments in Taichung and 29 in Changhua.",
+  "locator": "Paragraph discussing regional distribution of winning shops",
+  "captured_at": "2026-09-24T21:14:00+08:00",
+  "notes": "Use these counts as the regional total because the full-list text rendering appears to concatenate at least two Changhua names."
+}

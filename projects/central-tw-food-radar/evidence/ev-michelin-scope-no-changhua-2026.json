@@ -1,0 +1,9 @@
+{
+  "id": "ev-michelin-scope-no-changhua-2026",
+  "source_id": "src-michelin-taiwan-2026-scope",
+  "evidence_type": "observation",
+  "statement": "MICHELIN Guide Taiwan 2026 covers Taipei, Taichung, Tainan, Kaohsiung, New Taipei City, Hsinchu City, and Hsinchu County; Changhua is not in the listed coverage area.",
+  "locator": "Paragraph listing the seven covered cities",
+  "captured_at": "2026-09-24T21:14:00+08:00",
+  "notes": "Prevents a false inference that Changhua restaurants were evaluated and failed to receive Bib Gourmand."
+}

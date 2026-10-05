@@ -1,0 +1,20 @@
+{
+  "id": "task-nri-trajectory-privacy",
+  "title": "Stress-test trajectory-level differential privacy for NRI",
+  "status": "open",
+  "question": "Can Neural Relational Inference be trained and released with a defensible trajectory-level differential privacy guarantee, and is that problem materially distinct from existing graph-DP and graph-unlearning work?",
+  "created_at": "2026-10-05T16:10:00+08:00",
+  "updated_at": "2026-10-05T16:10:00+08:00",
+  "max_active_runs": 1,
+  "parent_task_id": "task-nri-lineage-map",
+  "acceptance_criteria": [
+    "Specify the privacy object/data unit, raw-data adjacency relation, threat model, mechanism, release surface, privacy guarantee, task objective, and assumptions.",
+    "Verify whether one simulation trajectory is both the computational record and a defensible semantic privacy record in NRI-style datasets.",
+    "Audit the original NRI implementation for operations that invalidate a standard per-record DP-SGD argument, including cross-record normalization and batch-dependent layers.",
+    "Construct a DP-compatible architecture and preprocessing path, with every data-dependent step either public/fixed or included in the privacy accounting.",
+    "Survey direct precedent across differentially private graph learning, time-series/trajectory privacy, latent-graph inference, system identification, causal/structure discovery, and relational dynamics.",
+    "Separate trajectory-level DP from graph unlearning/certified removal and explain when each threat model is appropriate.",
+    "Define the exact proof obligations and implementation tests required before any privacy claim is made.",
+    "Reach a source-backed go/no-go decision on whether this is a research contribution rather than a straightforward application of DP-SGD."
+  ]
+}

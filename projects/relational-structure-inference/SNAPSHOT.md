@@ -192,6 +192,35 @@ Markov-random-field structure learning, DP causal graph discovery, and DP infere
 private representation mechanisms. Therefore neither “trajectory-level DP” nor “DP
 structure learning” is itself novel.
 
+
+## 2025 system-identification privacy paper: close but privacy direction is reversed
+
+Campbell et al., *Differential Privacy of Network Parameters from a System Identification Perspective* (ICASSP 2026; arXiv 2025), is now a required novelty-adjacent source.
+
+Their setting is a graph-filter dynamical system
+`Y = H(S) U`, where the released time-series states `Y` are generated from
+differentially private excitation signals `U`. Their protected object is the
+**graph shift operator / network structure S**: two GSOs are adjacent when they differ
+by one bounded edge, and the paper proves conditions under which releasing `Y` is
+`(epsilon, delta)`-DP with respect to `S`.
+
+This is close to NRI because it connects time-series dynamics, hidden network
+structure, and DP, but it is not the same privacy direction as the candidate
+trajectory-level NRI task:
+
+- Campbell et al.: **protect the hidden graph/topology S while releasing trajectories/signals Y**.
+- Candidate NRI training privacy: **protect a trajectory record x while releasing a learned relational model**.
+- Candidate NRI latent-output privacy: **protect private trajectory contents while releasing an inferred graph z=f_phi(x)**.
+
+This distinction materially narrows the novelty claim. The project must not claim that
+“DP for hidden network structure from dynamical observations” is new. The surviving
+question is instead whether a formal, useful guarantee exists for **data/agent
+privacy when the scientific output itself is a latent interaction graph inferred from
+private trajectories**, especially across training-time and inference-time release
+surfaces.
+
+Source: https://arxiv.org/abs/2509.20460
+
 ## Immediate next actions
 
 1. Decide whether the primary scientific target is model/training privacy, private

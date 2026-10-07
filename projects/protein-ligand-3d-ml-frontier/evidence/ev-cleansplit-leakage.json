@@ -1,0 +1,9 @@
+{
+  "id": "ev-cleansplit-leakage",
+  "source_id": "src-cleansplit-2025",
+  "evidence_type": "paraphrase",
+  "statement": "The CleanSplit study reports severe train–test leakage and redundancy in common PDBbind/CASF evaluation setups; retraining several strong binding-affinity models on the cleaned split caused substantial performance drops.",
+  "locator": "Abstract and Main; Nature Machine Intelligence article s42256-025-01124-5",
+  "captured_at": "2026-10-07T16:10:00+08:00",
+  "notes": "Supports treating split design and structural similarity as central scientific variables."
+}

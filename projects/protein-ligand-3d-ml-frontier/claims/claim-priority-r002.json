@@ -1,0 +1,17 @@
+{
+  "id": "claim-priority-r002",
+  "claim_key": "research-priority",
+  "revision": 2,
+  "statement": "For a tractable high-value project, current evidence favors state-aware OOD cofolding, leakage/deployment-aware affinity decomposition, or uncertainty-gated ML–physics hybridization over an architecture-only equivariant-network contribution.",
+  "status": "proposed",
+  "evidence_ids": [
+    "ev-runsnposes-memorization",
+    "ev-kinconf-state-collapse",
+    "ev-affinity-input-shift",
+    "ev-gpcr-physics-rescue",
+    "ev-target2035-negative-data"
+  ],
+  "created_at": "2026-10-07",
+  "supersedes": "claim-priority-r001",
+  "notes": "Strategic prioritization remains proposed until a reproducible pilot and compute/access audit are completed."
+}

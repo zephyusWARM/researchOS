@@ -1,0 +1,9 @@
+{
+  "id": "ev-target-mirroring-redteam",
+  "source_id": "src-target-mirroring-2026",
+  "evidence_type": "preprint_paraphrase",
+  "statement": "A 2026 preprint argues that global protein-sequence thresholds can miss target mirroring and reports thousands of correlated ChEMBL36 assay pairs plus unexpectedly strong ligand-only baselines on commonly used affinity benchmarks.",
+  "locator": "Abstract and proposed splitting analysis; bioRxiv 2026.06.29.735309v1",
+  "captured_at": "2026-10-07",
+  "notes": "Not peer reviewed. Retain as adversarial evidence and reproduce before promoting any dependent claim."
+}

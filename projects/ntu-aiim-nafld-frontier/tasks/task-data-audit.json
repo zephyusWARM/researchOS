@@ -1,0 +1,22 @@
+{
+  "id": "task-data-audit",
+  "title": "Research-oriented longitudinal data audit",
+  "status": "open",
+  "question": "What temporal information actually exists in the course dataset, and which of the five surviving research directions remain feasible after auditing row grain, visit density, label lineage, pollution lineage, post-event history, missingness, censoring, and calendar structure?",
+  "created_at": "2026-10-07T19:16:00+08:00",
+  "updated_at": "2026-10-07T19:16:00+08:00",
+  "max_active_runs": 1,
+  "parent_task_id": "task-frontier-survey",
+  "acceptance_criteria": [
+    "Confirm row grain and patient/date keys",
+    "Audit visit-count and pre-event history-depth distributions",
+    "Reconstruct NAFLD2_1() label lineage and ultrasound state history",
+    "Determine whether post-event visits are retained and quantify 0→1→0 / 1→0 transitions",
+    "Audit annual vs rolling pollution exposure lineage",
+    "Decompose pollution variation by township, calendar year, and residual township×year variation",
+    "Audit missingness, censoring, migration/dropout provenance",
+    "Plot calendar-time changes in cohort mix, outcome detection, visit intensity, pollution and major metabolic variables",
+    "Issue GO/NO-GO verdict for all five exploration lines",
+    "Identify at least one empirical fact that materially changes the research formulation"
+  ]
+}

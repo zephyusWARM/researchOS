@@ -1,0 +1,11 @@
+{
+  "id": "claim-affinity-leakage-r001",
+  "claim_key": "affinity-benchmark-leakage",
+  "revision": 1,
+  "statement": "Reported deep-learning performance for protein–ligand binding affinity can be materially inflated by train–test structural similarity, redundancy and leakage; leakage-resistant split design is therefore part of the scientific problem, not merely an evaluation detail.",
+  "status": "supported",
+  "evidence_ids": ["ev-cleansplit-leakage"],
+  "created_at": "2026-10-07T16:18:00+08:00",
+  "supersedes": null,
+  "notes": "Next pass should compare CleanSplit, LP-PDBBind and other split protocols."
+}

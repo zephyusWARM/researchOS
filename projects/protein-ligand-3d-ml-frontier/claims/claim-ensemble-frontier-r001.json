@@ -1,0 +1,11 @@
+{
+  "id": "claim-ensemble-frontier-r001",
+  "claim_key": "dynamic-ensemble-frontier",
+  "revision": 1,
+  "statement": "For drug–protein 3D ML, predicting or reasoning over conformational ensembles is a distinct unsolved problem beyond predicting one static structure, and progress is constrained both by sampling/physics and by a shortage of scalable atomistic ensemble ground truth.",
+  "status": "supported",
+  "evidence_ids": ["ev-ensemble-groundtruth"],
+  "created_at": "2026-10-07T16:18:00+08:00",
+  "supersedes": null,
+  "notes": "Phase 2 must connect this specifically to ligand recognition, induced fit, cryptic pockets and affinity."
+}

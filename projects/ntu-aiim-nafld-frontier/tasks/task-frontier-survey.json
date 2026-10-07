@@ -1,10 +1,10 @@
 {
   "id": "task-frontier-survey",
   "title": "Exhaustive frontier survey and problem discovery",
-  "status": "open",
+  "status": "completed",
   "question": "What unresolved scientific questions can this exact longitudinal MJ NAFLD dataset answer unusually well, after accounting for existing NAFLD/MASLD, dynamic prediction, trajectory, pollution, and causal literature?",
   "created_at": "2026-09-30T20:50:00+08:00",
-  "updated_at": "2026-09-30T20:50:00+08:00",
+  "updated_at": "2026-10-07T19:16:00+08:00",
   "max_active_runs": 1,
   "parent_task_id": null,
   "acceptance_criteria": [
@@ -16,5 +16,6 @@
     "Irreducible baselines for surviving questions",
     "Top 3 directions ranked by scientific and feasibility criteria",
     "Deep-learning-free answer to the most interesting scientific question"
-  ]
+  ],
+  "completion_note": "Milestone reached: broad survey is sufficient to transition from literature expansion to data audit. Surviving directions are history decomposition, observation/detection process, pre-detection trajectories, environmental reversibility, and causal identifiability; temporal generalization is a validation axis."
 }

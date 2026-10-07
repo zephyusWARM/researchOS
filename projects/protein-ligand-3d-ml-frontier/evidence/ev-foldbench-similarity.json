@@ -1,0 +1,9 @@
+{
+  "id": "ev-foldbench-similarity",
+  "source_id": "src-foldbench-2025",
+  "evidence_type": "paraphrase",
+  "statement": "FoldBench reports that ligand-docking accuracy in all-atom biomolecular prediction notably decreases as ligand similarity to the training set decreases, highlighting dependence on training-set similarity.",
+  "locator": "Abstract; Nature Communications article s41467-025-67127-3",
+  "captured_at": "2026-10-07T16:18:00+08:00",
+  "notes": "Independent benchmark signal aligned with PoseBench OOD concerns."
+}

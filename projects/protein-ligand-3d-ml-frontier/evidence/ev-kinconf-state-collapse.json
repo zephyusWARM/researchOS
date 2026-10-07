@@ -1,0 +1,9 @@
+{
+  "id": "ev-kinconf-state-collapse",
+  "source_id": "src-kinconfbench-2026",
+  "evidence_type": "paraphrase",
+  "statement": "KinConfBench evaluates 2,225 high-quality human kinase chains and reports roughly 60–80% conformational-state classification accuracy across four cofolding models, weak association between ligand-pose geometric success and correct kinase state, severe repeated-sampling mode collapse, negligible induced-fit diversity, and prevalent apo drift that worsens on post-cutoff complexes.",
+  "locator": "Abstract and Introduction; npj Drug Discovery 3, 33 (2026)",
+  "captured_at": "2026-10-07",
+  "notes": "Direct evidence that ligand RMSD and ligand-conditioned receptor-state correctness are different tasks."
+}

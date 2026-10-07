@@ -1,0 +1,15 @@
+{
+  "id": "claim-affinity-deployment-r001",
+  "claim_key": "affinity-needs-leakage-and-input-controls",
+  "revision": 1,
+  "statement": "Protein–ligand affinity models cannot be judged credibly from conventional crystal-structure or overlap-prone benchmarks alone; similarity leakage and deployment-time structure uncertainty both materially affect performance.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-cleansplit-leakage",
+    "ev-lppdbbind-transfer",
+    "ev-affinity-input-shift"
+  ],
+  "created_at": "2026-10-07",
+  "supersedes": null,
+  "notes": "Require ligand-only/retrieval controls and realistic input structures."
+}

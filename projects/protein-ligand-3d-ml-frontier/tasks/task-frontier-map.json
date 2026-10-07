@@ -1,0 +1,21 @@
+{
+  "id": "task-frontier-map",
+  "title": "Map the real frontier of 3D ML for drug–protein systems",
+  "status": "active",
+  "question": "Which limitations of current 3D protein–ligand ML are genuinely unsolved under leakage-resistant, OOD, physically meaningful and experimentally relevant evaluation, and which of those limitations support a defensible research project?",
+  "created_at": "2026-10-07T16:10:00+08:00",
+  "updated_at": "2026-10-07T16:10:00+08:00",
+  "max_active_runs": 1,
+  "parent_task_id": null,
+  "acceptance_criteria": [
+    "Evidence-backed taxonomy spanning structure, affinity, dynamics, physics, generation and evaluation",
+    "At least one strong counterexample against each major solved narrative",
+    "Leakage/similarity audit of dominant protein–ligand benchmarks",
+    "Map of receptor-flexibility and conformational-ensemble approaches",
+    "Map of physical failure modes: water, protonation, entropy, electrostatics and long-range effects",
+    "Prospective or experimental validation survey for 3D generative methods",
+    "5–10 candidate research problems with falsifiable hypotheses",
+    "For each surviving candidate: dataset, split, baselines, metrics, compute estimate, failure criteria and venue fit",
+    "Top 3 directions ranked only after red-team"
+  ]
+}

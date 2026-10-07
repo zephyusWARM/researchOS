@@ -1,0 +1,13 @@
+{
+  "id": "src-affinity-deployment-2026",
+  "title": "Robustness of Protein–Ligand Binding Affinity Prediction Models to Docked and Predicted Structures",
+  "source_type": "paper",
+  "locator": "https://doi.org/10.1021/acs.jcim.6c00592",
+  "captured_at": "2026-10-07",
+  "published_at": "2026-07-13",
+  "authors": [
+    "Joelle Eaves",
+    "Daniel Woldring"
+  ],
+  "supersedes": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "src-plinder-resource",
+  "title": "PLINDER: The Protein-Ligand Interactions Dataset and Evaluation Resource",
+  "source_type": "dataset",
+  "locator": "https://github.com/plinder-org/plinder",
+  "captured_at": "2026-10-07",
+  "published_at": "2024-01-01",
+  "authors": [
+    "Janani Durairaj",
+    "Yusuf Adeshina",
+    "et al."
+  ],
+  "supersedes": null
+}

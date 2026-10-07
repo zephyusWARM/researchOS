@@ -1,0 +1,9 @@
+{
+  "id": "ev-runsnposes-memorization",
+  "source_id": "src-runsnposes-2026",
+  "evidence_type": "paraphrase",
+  "statement": "Runs N' Poses evaluates four leading all-atom cofolding methods on 2,600 high-resolution protein–ligand systems released after the models' training cutoffs and reports that current approaches substantially reuse or memorize ligand-pose information from training data, limiting de novo generalization.",
+  "locator": "Abstract; Nature Structural & Molecular Biology 33, 782–794 (2026)",
+  "captured_at": "2026-10-07",
+  "notes": "High-signal post-cutoff evidence against reading familiar-benchmark docking accuracy as de novo recognition."
+}

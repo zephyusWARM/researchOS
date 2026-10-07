@@ -1,0 +1,9 @@
+{
+  "id": "ev-alphafold3-scope",
+  "source_id": "src-alphafold3-2024",
+  "evidence_type": "paraphrase",
+  "statement": "AlphaFold 3 predicts joint structures containing proteins, nucleic acids, small molecules, ions and modified residues, and reported substantially improved protein–ligand interaction accuracy relative to prior specialized tools.",
+  "locator": "Abstract; Nature article s41586-024-07487-w",
+  "captured_at": "2026-10-07T16:10:00+08:00",
+  "notes": "Major progress in static all-atom complex prediction; not evidence that OOD docking, affinity or dynamics are solved."
+}

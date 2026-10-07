@@ -1,0 +1,14 @@
+{
+  "id": "claim-cofolding-memorization-r001",
+  "claim_key": "cofolding-postcutoff-generalization",
+  "revision": 1,
+  "statement": "Modern protein–ligand cofolding is useful but does not yet demonstrate robust de novo molecular recognition: post-cutoff benchmarks show substantial dependence on training-distribution pose information and persistent OOD failures.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-runsnposes-memorization",
+    "ev-posebench-ood"
+  ],
+  "created_at": "2026-10-07",
+  "supersedes": null,
+  "notes": "Quantify method- and similarity-stratum effects in the next pilot."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "claim-priority-r001",
+  "claim_key": "initial-research-priority",
+  "revision": 1,
+  "statement": "Initial evidence favors prioritizing OOD-generalizable, ensemble-aware and physically/evaluation-grounded protein–ligand modeling over architecture-only novelty in equivariant 3D networks.",
+  "status": "proposed",
+  "evidence_ids": ["ev-posebench-ood", "ev-cleansplit-leakage", "ev-ensemble-groundtruth", "ev-molgenbench-realism"],
+  "created_at": "2026-10-07T16:18:00+08:00",
+  "supersedes": null,
+  "notes": "Strategic synthesis only; must survive broader coverage, feasibility analysis and counterexample search."
+}

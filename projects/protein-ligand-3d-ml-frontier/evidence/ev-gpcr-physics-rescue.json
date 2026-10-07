@@ -1,0 +1,9 @@
+{
+  "id": "ev-gpcr-physics-rescue",
+  "source_id": "src-gpcr-hybrid-2026",
+  "evidence_type": "paraphrase",
+  "statement": "On curated human GPCR families outside Boltz's reported training distribution, receptor backbones were often accurate while ligand poses could contain consequential local errors; physics-based refinement improved poses and rescued downstream FEP+ agreement toward native-structure performance.",
+  "locator": "Abstract and Results; npj Drug Discovery 3, 30 (2026)",
+  "captured_at": "2026-10-07",
+  "notes": "Supports hybrid ML-plus-physics as an empirically grounded direction; open replication should not depend on proprietary FEP+."
+}

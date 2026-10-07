@@ -1,0 +1,9 @@
+{
+  "id": "ev-target2035-negative-data",
+  "source_id": "src-target2035-data-2025",
+  "evidence_type": "paraphrase",
+  "statement": "The Target 2035 roadmap identifies fragmented, non-standardized public bioactivity data and lack of high-quality inactive compounds as major constraints, and proposes large open positive/negative binding datasets with metadata, quality control and orthogonal experimental verification.",
+  "locator": "Abstract and data-quality sections; Nature Reviews Chemistry 9, 634–645 (2025)",
+  "captured_at": "2026-10-07",
+  "notes": "Strong evidence that supervision quality is a first-class bottleneck, not only model architecture."
+}

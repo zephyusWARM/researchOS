@@ -1,0 +1,18 @@
+{
+  "id": "src-lppdbbind-2026",
+  "title": "Leak Proof PDBBind: A Reorganized Data Set of Protein-Ligand Complexes for More Generalizable Binding Affinity Prediction",
+  "source_type": "paper",
+  "locator": "https://doi.org/10.1021/acs.jpcb.5c08598",
+  "captured_at": "2026-10-07",
+  "published_at": "2026-01-04",
+  "authors": [
+    "Jie Li",
+    "Xingyi Guan",
+    "Oufan Zhang",
+    "Kunyang Sun",
+    "Yingze Wang",
+    "Dorian Bagni",
+    "Teresa Head-Gordon"
+  ],
+  "supersedes": null
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ev-affinity-input-shift",
+  "source_id": "src-affinity-deployment-2026",
+  "evidence_type": "paraphrase",
+  "statement": "Five reproducible structure-based affinity pipelines performed best on experimental co-crystal inputs and generally degraded when evaluated on docked apo, predicted-receptor or AlphaFold3-cofolded structures, demonstrating a benchmark-to-deployment input-structure gap.",
+  "locator": "Abstract and Results; Journal of Chemical Information and Modeling (2026), DOI 10.1021/acs.jcim.6c00592",
+  "captured_at": "2026-10-07",
+  "notes": "Useful for decomposing end-to-end error into structure-generation and scoring components."
+}

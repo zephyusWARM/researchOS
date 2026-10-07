@@ -1,0 +1,13 @@
+{
+  "id": "src-kinconfbench-2026",
+  "title": "A curated benchmark for cofolding models on kinase conformational states",
+  "source_type": "paper",
+  "locator": "https://doi.org/10.1038/s44386-026-00068-z",
+  "captured_at": "2026-10-07",
+  "published_at": "2026-09-02",
+  "authors": [
+    "Kunyang Sun",
+    "Teresa Head-Gordon"
+  ],
+  "supersedes": null
+}

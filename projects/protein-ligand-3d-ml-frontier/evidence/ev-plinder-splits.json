@@ -1,0 +1,9 @@
+{
+  "id": "ev-plinder-splits",
+  "source_id": "src-plinder-resource",
+  "evidence_type": "resource",
+  "statement": "PLINDER provides over 400k protein–ligand systems, extensive protein/pocket/ligand similarity annotations, linked apo and predicted structures, and test stratification by novel ligand, pocket, protein or all, explicitly designed to reduce information leakage and support realistic evaluation.",
+  "locator": "Official PLINDER repository and documentation, accessed 2026-10-07",
+  "captured_at": "2026-10-07",
+  "notes": "Attractive OOD infrastructure; the current release documents a BindingDB affinity parsing issue, so affinity usage needs care."
+}

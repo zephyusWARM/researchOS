@@ -1,0 +1,9 @@
+{
+  "id": "ev-bioemu-counterexample",
+  "source_id": "src-bioemu-2025",
+  "evidence_type": "paraphrase",
+  "statement": "BioEmu integrates more than 200 ms of molecular-dynamics data with static structures and experimental stability information, generates thousands of approximately independent protein conformations per hour on one GPU, captures motions including cryptic-pocket formation, and reports useful relative free-energy agreement on evaluated systems.",
+  "locator": "Science 2025 publication summary and Microsoft Research publication page",
+  "captured_at": "2026-10-07",
+  "notes": "Counterevidence against claiming ensemble ML is wholly immature; scope and transferability still require careful benchmarking."
+}

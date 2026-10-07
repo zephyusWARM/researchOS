@@ -1,0 +1,14 @@
+{
+  "id": "claim-hybrid-physics-r001",
+  "claim_key": "hybrid-ml-physics-promising-frontier",
+  "revision": 1,
+  "statement": "Hybrid workflows using fast ML structural hypotheses and targeted physics-based refinement or validation are empirically and mechanistically justified because the paradigms expose complementary error modes.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-gpcr-physics-rescue",
+    "ev-physics-thermodynamics"
+  ],
+  "created_at": "2026-10-07",
+  "supersedes": null,
+  "notes": "An open-source replication path is required before project lock."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ev-posebench-ood",
+  "source_id": "src-posebench-2025",
+  "evidence_type": "paraphrase",
+  "statement": "PoseBench found that deep-learning cofolding methods generally outperform comparable docking baselines, but remain challenged by new protein–ligand binding poses, apo-to-holo settings, uncommon interaction targets and multiligand complexes; models also struggle to balance structural accuracy with chemical specificity.",
+  "locator": "Abstract and Main; Nature Machine Intelligence article s42256-025-01160-1",
+  "captured_at": "2026-10-07T16:10:00+08:00",
+  "notes": "High-signal evidence against treating headline docking accuracy as robust real-world generalization."
+}

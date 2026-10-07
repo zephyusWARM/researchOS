@@ -1,0 +1,11 @@
+{
+  "id": "claim-complex-ood-r001",
+  "claim_key": "complex-structure-ood-remains-unsolved",
+  "revision": 1,
+  "statement": "All-atom protein–ligand structure prediction has advanced substantially, but robust generalization to novel ligand/pocket regimes, apo-to-holo inputs and multiligand settings remains an open problem; static benchmark success should not be interpreted as protein–ligand docking being solved.",
+  "status": "supported",
+  "evidence_ids": ["ev-alphafold3-scope", "ev-posebench-ood"],
+  "created_at": "2026-10-07T16:10:00+08:00",
+  "supersedes": null,
+  "notes": "Future revisions should quantify methods and similarity strata."
+}

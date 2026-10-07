@@ -1,0 +1,9 @@
+{
+  "id": "ev-ensemble-groundtruth",
+  "source_id": "src-ensemble-2026",
+  "evidence_type": "paraphrase",
+  "statement": "Proteins and other macromolecules exist as dynamic ensembles essential for molecular recognition and function; current static AI structure predictors do not yet capture full conformational ensembles, and progress is limited by the lack of accurate high-resolution ensemble ground truth at training scale.",
+  "locator": "Abstract; Nature Methods article s41592-026-03084-z",
+  "captured_at": "2026-10-07T16:18:00+08:00",
+  "notes": "Establishes both the scientific importance of dynamics and a data/validation bottleneck."
+}

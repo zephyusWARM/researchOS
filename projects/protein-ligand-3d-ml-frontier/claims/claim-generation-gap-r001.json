@@ -1,0 +1,11 @@
+{
+  "id": "claim-generation-gap-r001",
+  "claim_key": "3d-generation-not-solved",
+  "revision": 1,
+  "statement": "Current 3D structure-based molecular generators remain far from reliably producing target-aware, structurally realistic and practically useful drug candidates; independent benchmarks expose validity, conformation, target-specificity and unseen-protein generalization failures.",
+  "status": "supported",
+  "evidence_ids": ["ev-sbdd-generator-validity", "ev-molgenbench-realism"],
+  "created_at": "2026-10-07T16:18:00+08:00",
+  "supersedes": null,
+  "notes": "Prospective experimental hit-rate evidence is still missing and is a required next scan."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ev-sbdd-generator-validity",
+  "source_id": "src-sbdd-benchmark-2025",
+  "evidence_type": "paraphrase",
+  "statement": "A 2025 independent benchmark of multiple 3D structure-based generators found that deep-learning methods often failed to generate structurally valid molecules and realistic 3D conformations, motivating evaluation beyond standard 2D validity/novelty metrics.",
+  "locator": "Abstract; Journal of Chemical Information and Modeling, DOI 10.1021/acs.jcim.5c01020",
+  "captured_at": "2026-10-07T16:18:00+08:00",
+  "notes": "Counterweight to generator papers evaluated mainly with surrogate metrics."
+}

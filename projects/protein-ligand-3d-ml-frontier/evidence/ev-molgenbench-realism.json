@@ -1,0 +1,9 @@
+{
+  "id": "ev-molgenbench-realism",
+  "source_id": "src-molgenbench-2026",
+  "evidence_type": "paraphrase",
+  "statement": "MolGenBench evaluated 17 leading structure-based generative methods and found persistent weaknesses including weak virtual-screening performance, limited coverage of target-specific bioactive space, frequent high-risk structural motifs, poor target awareness and reduced generalization to unseen proteins.",
+  "locator": "Abstract; Nature Communications article s41467-026-78105-8",
+  "captured_at": "2026-10-07T16:18:00+08:00",
+  "notes": "Very recent evidence that improved 3D conformation generation does not imply useful structure-based molecular design."
+}

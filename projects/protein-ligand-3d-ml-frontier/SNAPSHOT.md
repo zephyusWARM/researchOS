@@ -1,35 +1,43 @@
 # SNAPSHOT
 
-Updated: 2026-10-07 16:18 +08:00
+Updated: 2026-10-07 — Phase 2 deep-survey checkpoint
 
 ## Current state
 
-Research line initialized with a first evidence-backed frontier scan. Seven high-signal sources and seven bounded evidence records are attached. Four empirical claims are promoted to supported status; one strategic prioritization claim remains proposed pending broader coverage.
+The research line has moved from a first-pass frontier map to a red-teamed problem hierarchy.
 
-## First-pass synthesis
+**Central conclusion:** the hardest part of protein–ligand 3D ML is no longer merely encoding 3D geometry. The unresolved core is learning transferable ligand-conditioned state changes and ensemble/thermodynamic behavior under leakage-resistant, deployment-realistic evaluation.
 
-1. **Static complex prediction has improved dramatically, but is not equivalent to solving protein–ligand modeling.** AlphaFold 3 expanded joint all-atom prediction to proteins, nucleic acids, small molecules, ions and modified residues. PoseBench and FoldBench show that performance still degrades on novel binding poses / low-similarity ligands and that apo-to-holo, blind-pocket and multiligand settings remain challenging.
-2. **Binding-affinity leaderboards are unusually vulnerable to data similarity and leakage.** CleanSplit-style re-evaluation caused large drops for several existing models, so random or structurally overlapping splits are not credible evidence of transferable binding physics.
-3. **Dynamics / conformational ensembles are a deeper frontier than a single predicted structure.** Proteins occupy interconverting ensembles linked to recognition, catalysis and allostery; current static predictors do not provide full ensemble distributions, and scalable atomistic ground truth is itself scarce.
-4. **3D generation is far from solved in medicinal-chemistry terms.** Independent benchmarks report structural-validity/conformation failures, and the 2026 MolGenBench evaluation of 17 methods finds weak virtual-screening performance, limited target-specific bioactive coverage, risky motifs and reduced generalization to unseen proteins.
-5. The working research thesis is therefore: **the highest-value frontier is shifting from “can a network encode 3D geometry?” toward “can a model learn transferable, dynamic and physically meaningful protein–ligand behavior under hard evaluation?”**
+## High-confidence findings
 
-## What is NOT yet established
+1. Static all-atom complex prediction is strong but not equivalent to de novo molecular recognition. Post-cutoff Runs N' Poses evidence points to pose memorization; PoseBench shows persistent difficulty on blind/apo/novel/multiligand settings.
+2. Pose correctness and receptor-state correctness are distinct. KinConfBench finds weak coupling between ligand-pose geometry and correct kinase state, plus mode collapse and apo drift.
+3. Affinity evaluation remains highly leakage-sensitive. CleanSplit and LP-PDBBind independently show that similarity control changes conclusions; a 2026 target-mirroring preprint raises an additional red-team warning about sequence-only split rules.
+4. Deployment structures matter. Structure-based affinity models degrade when crystal inputs are replaced by apo, docked, predicted or cofolded inputs.
+5. ML plus physics is a credible frontier. An unseen-GPCR study shows physics-based refinement can rescue consequential local cofolding errors and downstream free-energy behavior.
+6. Ensemble ML is progressing but coverage, probabilities and kinetics must be separated. BioEmu is a strong positive counterexample; reviews still identify thermodynamic weighting, kinetics, environmental dependence and benchmarking as open.
+7. 3D generation is not solved by valid geometry. MolGenBench reports weak target awareness, bioactive-space coverage and unseen-protein generalization across 17 methods.
+8. Data quality and negative supervision are central. Target 2035 treats standardized positive/negative binding data as foundational; PLINDER operationalizes similarity-aware structural evaluation.
 
-- A complete ranking of equivariant architectures or 3D foundation models.
-- Whether ensemble-aware modeling is the best master's-scale project.
-- Which public dataset gives the cleanest entry point for a publishable project.
-- How much explicit water, protonation, ion treatment, entropy or long-range electrostatics explains current failures.
-- Whether a benchmark/data-centric project would dominate a new model contribution in expected impact per unit effort.
-- Prospective wet-lab hit-rate evidence across current 3D generative systems.
+## Preliminary ranking
+
+1. Ligand-conditioned state failure / apo drift in cofolding.
+2. Decompose the real incremental value of 3D under leakage-resistant affinity evaluation.
+3. Uncertainty-gated hybrid ML → physics refinement.
+4. Ensemble-aware docking value map.
+5. Functional-failure confidence / calibration.
+6. Protonation/water/tautomer robustness.
+7. Hard-OOD target-aware generation.
+8. Binding-kinetics learning.
+
+The ranking is provisional, not a thesis lock.
+
+## Strongest conceptual model
+
+Treat a protein–ligand system as a distribution over coordinates, conformational state and physical microstate conditioned on molecular identity and environment. Static pose prediction only covers a slice of this object. Affinity/selectivity depend on ensemble free energies; kinetics additionally depends on transition barriers.
 
 ## Immediate next durable action
 
-Phase 2 should expand the evidence graph across:
-1. physical chemistry failure modes (water, protonation/tautomer, entropy, electrostatics);
-2. conformational sampling / induced fit / cryptic pockets;
-3. leak-proof and temporal benchmark design;
-4. experimental/prospective validation of structure-based generative models;
-5. concrete project candidates with datasets, baselines, compute budget, falsifiable hypotheses and venue fit.
+Run a reproducible KinConfBench-centered pilot using released outputs: quantify apo drift, state error, sample diversity and confidence; stratify by post-cutoff novelty and ligand/state class; test whether ensemble disagreement and cheap physicochemical diagnostics predict failure; then seek at least one non-kinase replication.
 
-Do not select a thesis direction until these five universes have been red-teamed.
+In parallel, complete the open-source hybrid-physics feasibility audit and the physical-microstate evidence gap.

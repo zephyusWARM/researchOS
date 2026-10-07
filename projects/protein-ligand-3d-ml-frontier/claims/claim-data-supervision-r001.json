@@ -1,0 +1,15 @@
+{
+  "id": "claim-data-supervision-r001",
+  "claim_key": "protein-ligand-data-quality-bottleneck",
+  "revision": 1,
+  "statement": "High-quality negative supervision, experimental metadata, similarity-aware splits and deployment-relevant structural inputs are first-class constraints on progress in protein–ligand ML, not bookkeeping details.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-target2035-negative-data",
+    "ev-plinder-splits",
+    "ev-cleansplit-leakage"
+  ],
+  "created_at": "2026-10-07",
+  "supersedes": null,
+  "notes": "Supports data/benchmark work only when tied to a demonstrated model failure."
+}

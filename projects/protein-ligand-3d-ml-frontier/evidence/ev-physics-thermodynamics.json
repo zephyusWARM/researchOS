@@ -1,0 +1,9 @@
+{
+  "id": "ev-physics-thermodynamics",
+  "source_id": "src-physics-ai-2026",
+  "evidence_type": "paraphrase",
+  "statement": "A 2026 JPC Letters perspective argues that biomolecular recognition requires thermodynamic and kinetic observables from high-dimensional ensembles; physics-based methods provide statistical-mechanical consistency but are costly, while ML is fast but does not inherently enforce a partition-function-consistent ensemble, motivating scalable hybrid approaches.",
+  "locator": "Abstract; Journal of Physical Chemistry Letters 17 (2026)",
+  "captured_at": "2026-10-07",
+  "notes": "Mechanistic rationale for hybrid ML/physics prioritization."
+}

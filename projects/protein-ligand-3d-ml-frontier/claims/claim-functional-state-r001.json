@@ -1,0 +1,13 @@
+{
+  "id": "claim-functional-state-r001",
+  "claim_key": "pose-vs-ligand-conditioned-state",
+  "revision": 1,
+  "statement": "Ligand-pose accuracy is insufficient to establish that a cofolding model captured the correct ligand-conditioned receptor state; mode collapse and apo drift make functional-state prediction a distinct open problem.",
+  "status": "supported",
+  "evidence_ids": [
+    "ev-kinconf-state-collapse"
+  ],
+  "created_at": "2026-10-07",
+  "supersedes": null,
+  "notes": "Strongest direct evidence is kinase-centric; cross-family replication is required."
+}

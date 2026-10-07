@@ -1,0 +1,10 @@
+{
+  "id": "run-20261007-r002",
+  "task_id": "task-frontier-map",
+  "status": "succeeded",
+  "date": "2026-10-07",
+  "base_commit": "aeeda08aea969565433f9964758dd228b301c918",
+  "worker": "GPT-5.6 Sol",
+  "summary": "Phase-2 adversarial survey expanded the evidence graph across post-cutoff cofolding memorization, ligand-conditioned receptor states, leakage/deployment-aware affinity, ensemble maturity, hybrid ML+physics, data infrastructure and generative-model realism. Produced an eight-layer problem hierarchy and a preliminary top-three project ranking.",
+  "termination_reason": "Durable epistemic checkpoint reached. Topic remains unlocked pending a reproducible KinConfBench pilot and open-physics feasibility audit."
+}

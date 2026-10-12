@@ -1,0 +1,10 @@
+{
+  "id": "run-20261012-data-audit-r001",
+  "task_id": "task-data-audit",
+  "status": "succeeded",
+  "started_at": "2026-10-12T21:26:55+08:00",
+  "ended_at": "2026-10-12T22:05:40+08:00",
+  "base_commit": "79c590a72aa8c38b5bed144d124406ae22ed5fa1",
+  "summary": "Completed the first independent extract-level audit, private report, feature-availability review and end-to-end reproduction. This run completion does not close the broader lineage task.",
+  "termination_reason": "Private audit milestone delivered; source processing provenance remains the next task."
+}

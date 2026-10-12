@@ -29,3 +29,11 @@ Initialization only. No primary sources attached yet.
 - historical dataset shift
 - MASLD versus NAFLD definition mismatch
 - prediction performance versus clinical utility
+
+
+
+## 2026-10-12 audit checkpoint (workflow metadata only)
+
+The first extract-level audit and a fresh end-to-end reproduction were completed in the authorized private workflow. The report separately tracks checked arithmetic, inferred provenance and unresolved source questions. Detailed findings are intentionally not recorded in this public coverage file. `task-data-audit` remains open for source-pipeline reconciliation and an as-of data contract.
+
+This was not a new literature-saturation run. Prior source/claim registries are not silently backfilled from private data. Consult the private dated report before choosing a scientific direction.

@@ -1,40 +1,50 @@
 # SNAPSHOT
 
-Updated: 2026-10-12T22:05:40+08:00
+Updated: 2026-10-12T22:42:08+08:00
 
 ## Current state
 
-The frontier survey remains paused at the prior milestone. A first independent, reproducible audit of the supplied course extract has now been completed in the authorized private workflow. The audit did not train a prediction model. Detailed evidence, numeric findings, feature-availability rules and a runnable companion are in the private deliverables named `NAFLD_Audit_20261012.html` and `NAFLD_Audit_Package_20261012.zip`.
+The broad frontier survey remains paused. The first reproducible private extract-level audit has been followed by a targeted proposal-feasibility study. Its private deliverables are `NAFLD_Proposal_v0.1_20261012.md` and `NAFLD_Proposal_Research_Package_20261012.zip`. The package includes a source-threat matrix, descriptive design-support checks, exact synthetic examples, and checked elementary paired-loss bounds. No real-cohort prediction model or external replication has been completed.
 
-This public checkpoint records workflow state and generic next actions only. Do not upload course records, extracted data, complete codebooks, patient timelines, private evidence tables, or detailed audit findings to this repository. Confirm publication scope with the course/data owner before any release of findings.
+This public checkpoint records research workflow and generic design decisions only. Do not upload course records, full codebooks, private evidence, participant timelines, detailed numerical findings, or the private proposal package to this repository. Prior publication-scope questions remain unresolved.
 
-## Next task
+## Candidate research question
 
-Continue `task-data-audit`; it remains open because extract-level arithmetic verification does not establish the original data-generation pipeline.
+When can the incremental predictive value of patient history be supported under incomplete outcomes and changes in which historical records are retained? This is a proposed evaluation problem, not an established finding or a confirmed novel method.
 
-1. Obtain or verify source processing scripts: eligibility, record selection, labels, missing-value handling, questionnaire harmonization, baseline definitions, exposure assignment and censoring.
-2. Reconcile the private audit's source-provenance questions before constructing the canonical longitudinal table.
-3. Define each predictor's as-of availability and the disease-detection estimand separately from latent biological onset.
-4. Fix a common landmark, horizon, risk set, patient split and chronological label-availability rule for any history comparison.
-5. Reassess all five exploration lines using the private report's conditional verdicts; do not reuse the earlier tentative priority ordering without reading that report.
-6. Only then run the smallest fair information-decomposition experiment. Broad surveying and model selection are not the next actions.
+Keep three mechanisms distinct: changes to historical inputs, changes to future examination/detection, and changes to the selected study population. Input deletion with unchanged labels cannot validate a new disease-detection policy. A common retrospective landmark comparison also does not establish that its risk set could have been identified at prediction time.
 
-## Research lines retained for conditional evaluation
+## Novelty threats to compare
 
-- History decomposition beyond current state.
-- Observation, detection, and data-extraction sensitivity.
-- Pre-detection metabolic signatures at a defensible temporal resolution.
-- Environmental change and incidence; recovery requires appropriate outcome follow-up.
-- Causal identifiability and transportability as a shared review axis.
+- Informative-sampling adjustment: https://proceedings.mlr.press/v202/vanderschueren23a.html
+- Clinical-presence shift and joint survival prediction: https://arxiv.org/abs/2508.05472
+- Structural irregular-time-series perturbation: https://proceedings.neurips.cc/paper_files/paper/2025/hash/4eb5daabc45b45a9a312aa2c8fca8a74-Abstract-Conference.html
+- Partial-identification model evaluation: https://papers.nips.cc/paper_files/paper/2024/hash/f4c6bec746b0aeca8c2cd15096f1ad1f-Abstract-Conference.html
+- Survival score validity under administrative censoring: https://jmlr.org/papers/v24/19-1030.html
 
-No private audit result is promoted to a public supported scientific claim by this checkpoint. No causal effect, prediction improvement, mechanism, or conference-level novelty has been established here.
+Generic observation-aware architectures, history-versus-current comparison, and elementary missing-label bounds are not adequate novelty claims. The proposed temporal extension and combined evaluation protocol require further proof-level comparison and empirical validation.
+
+## Next actions
+
+Continue existing `task-data-audit`; it remains open for original processing provenance and an as-of data contract.
+
+1. Verify eligibility, visit retention, terminal-visit measurements, event definition, missing-data processing, baseline origins, exposure assignment and censoring.
+2. Establish whether a clinically prospective landmark risk set can be formed using information available at that date. Otherwise explicitly restrict claims to the selected retrospective extract population.
+3. Freeze the target as recorded first detection; biological onset, current disease state, and standardized-screening outcomes require separate assumptions.
+4. Predefine horizon, raw-prefix information sets, chronological label-availability cutoffs, participant splits and paired comparison procedure before fitting outcome models.
+5. Run the smallest fair current/history/observation comparison once its source contract is usable. Report unknown outcomes, assumption-based scores and compatible gain ranges separately.
+6. Develop simulations that independently control biology, observation, extraction and censoring; include settings in which simple summaries are stable and history genuinely helps.
+7. Compare temporal paired-loss bounds against existing partial-identification and interval-censored evaluation methods. Do not promote elementary algebra into a novelty theorem.
+8. Verify external dataset access and task alignment before promising replication. No external dataset has been acquired in this milestone.
+
+## Retained exploration lines
+
+History decomposition; observation/detection and extraction; pre-detection metabolic signatures; environmental change and incidence; causal identifiability and transportability. The private proposal prioritizes a conditional history-evaluation path, without declaring the other lines scientifically unimportant.
 
 ## Recovery
 
-Start with the two private audit artifacts listed above and their evidence locators. Reuse the original authorized archive when local source bytes are needed. Do not treat a previously processed longitudinal table as a complete source history without checking provenance.
+Read the private proposal and research dossier before restarting research. The proposal is v0.1 and includes falsification and downgrade conditions. Original source scripts and terminal-visit data remain important gaps. The older survey run metadata still has a running entry; do not infer an active worker or invent its missing end time.
 
-The repository's older survey run metadata still contains a `running` record although the survey task is marked done. This checkpoint does not infer an active worker from that historical record or invent its missing termination timestamp.
+## Research rule
 
-## Unchanged research rule
-
-Problem first. Information second. Method last. A top-venue research path requires a precisely documented general failure mode or scientific question, defensible identification/evaluation, and validation beyond a single private cohort.
+Problem first. Information second. Method last. No private audit finding, real-cohort history improvement, biological mechanism, causal effect, broad transportability or top-conference novelty is asserted by this public checkpoint.

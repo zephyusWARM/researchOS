@@ -1,6 +1,6 @@
 # SNAPSHOT
 
-Updated: 2026-10-14T14:49:31+08:00
+Updated: 2026-10-14T15:48:28+08:00
 
 ## Current state
 
@@ -9,6 +9,35 @@ The broad frontier survey remains paused. The private extract audit and v0.1 pro
 Private deliverables from this milestone: `NAFLD_GNN_Research_v0.2_20261014.md`, `NAFLD_Proposal_Stress_Test_20261014.md`, and `NAFLD_Research_v0.2_Package_20261014.zip`. The package retains the original proposal/dossier and supplies additive corrections, reproducible scripts, aggregate evidence, and supported/inferred/proposed claim records.
 
 This public checkpoint records workflow and generic design decisions only. Do not upload course records, full codebooks, participant timelines, detailed private findings, or the private research package. Prior publication-scope questions remain unresolved.
+
++## 2026-10-14 v0.3 additive milestone
+
+The targeted study now includes a second public longitudinal control (author-supplied AIDS data) and an official two-cycle NHANES CAP surrogate experiment. Public source bytes were acquired and hashed, the relevant XPORT fields were checked with an independent reader, and the aggregate outputs were freshly reproduced. The source-bank restoration control was also repeated without changing the original locked predictions. No private MJ outcome model was fitted.
+
+Private deliverables: `NAFLD_Deep_Research_v0.3_20261014.html`, its Markdown source, `NAFLD_Proposal_Prelude_v0.3_20261014.md`, and `NAFLD_Research_v0.3_Package_20261014.zip`. The package preserves the v0.2 milestone and contains current scripts, aggregate evidence, source hashes, claim boundaries and scientific figures. Raw participant records and individual predictions are excluded.
+
+New design decisions:
+
+- Treat CAP surrogate estimation, recorded disease detection, latent disease and mortality as distinct tasks. Two NHANES cycles are distinct participants, not individual longitudinal validation.
+- Count validation annotations in any label-scarcity claim. Artificial withholding differs from outcome censoring.
+- Define the reference bank independently from the outcome-learning domain. Restoring earlier QC-excluded people can change contextual predictions without adding their labels; this dependence also occurs in non-GNN summaries.
+- Separate known-label/fixed-prediction bounds from evaluation of a different reference graph. Independent-reference relaxations can be valid but loose; shared-node constraints may tighten joint risk bounds.
+- Separate useful history from biological path dependence. Past measurements can denoise a static current latent state.
+- Compare graph learners with strong smooth own-feature and equal-information relational controls. Local finite-sample gains do not establish GNN necessity.
+- Distinguish finite-cohort identification, target-design uncertainty and training uncertainty. Numerical derivative/parser checks validate implementation, not unknown clinical selection assumptions.
+
+Clinical history value under an explicit as-of contract remains the actionable main line. Joint incremental-value evaluation under uncertain membership, reference context and outcomes is a conditional methods branch, not a confirmed novelty claim. It must survive direct comparisons with medical selection bounds, collective graph certificates and a simple fixed-reference deployment contract. A change of loss, medical dataset or non-adversarial intent alone is insufficient novelty.
+
+New public primary sources:
+
+- TMLR 2024 population-graph reassessment: https://github.com/tamaramueller/population_graphs . The successfully read full text is an older review attachment: https://openreview.net/notes/edits/attachment?id=XMk37YzJNc&name=pdf ; sections 5.1-5.2 and 6-7. Do not attribute its exact table to the final version.
+- KDD 2026 selection-bias performance bound: https://arxiv.org/html/2606.00563v1 ; sections 3.1-3.3, Theorem 3.1; code https://github.com/kara-liu/selection_gap_est . Its assumptions and fixed-predictor scope remain relevant comparison requirements.
+- Collective graph-injection certification: https://arxiv.org/html/2403.01423v1 ; sections 3.1-3.2 and 5.1-5.3. Shared-budget joint certification already exists; no first-joint-bound claim is warranted.
+- NHANES original data/docs: https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/LUX_J.htm and https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/LUX_L.htm ; variance guidance https://wwwn.cdc.gov/nchs/nhanes/tutorials/varianceestimation.aspx . Added QC eligibility is a selected domain.
+- AIDS author object/docs: https://github.com/drizopoulos/JMbayes2/blob/master/data/aids.rda and https://drizopoulos.github.io/JMbayes2/reference/aids.html ; actual object structure and supplied CD4 scale were checked privately.
+
+The next step remains original source-pipeline reconciliation and a frozen risk-set/reference contract. If those cannot be reconstructed, restrict empirical claims to the selected retained population. Stop the methods branch if existing bounds suffice, plausible bounds remain uninformative, or a fixed reference contract solves the practical task. The broad survey remains paused; this was a targeted additive milestone.
+
 
 ## Candidate research question
 
@@ -61,7 +90,7 @@ History decomposition; observation/detection and extraction; pre-detection metab
 
 ## Recovery
 
-Read the two v0.2 reports first, then the archived v0.1 proposal/dossier and prior audit. Do not restart broad surveying or treat PBC as MJ replication. Raw public PBC records are not bundled; the private package retains source hashes and reproduction instructions. Original source scripts and terminal-visit data remain important gaps. The older survey run metadata still has a running entry; do not infer an active worker or invent its missing end time.
+Read the v0.3 research report and proposal prelude first, then the two v0.2 reports and the archived v0.1 proposal/dossier and prior audit. Do not restart broad surveying or treat PBC as MJ replication. Raw public PBC records are not bundled; the private package retains source hashes and reproduction instructions. Original source scripts and terminal-visit data remain important gaps. The older survey run metadata still has a running entry; do not infer an active worker or invent its missing end time.
 
 ## Research rule
 

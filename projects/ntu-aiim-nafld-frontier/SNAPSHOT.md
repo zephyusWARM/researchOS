@@ -1,16 +1,47 @@
 # SNAPSHOT
 
-Updated: 2026-10-14T15:48:28+08:00
+Updated: 2026-10-15T01:32:48+08:00
 
 ## Current state
 
-The broad frontier survey remains paused. The private extract audit and v0.1 proposal have now been stress-tested with controlled simulations, independent elementary-math checks, and a small public PBC pilot. A targeted GNN necessity review was added for AIIM Week 9. All new fitted models use synthetic or public data; no MJ prediction model has been fitted. The public pilot is an internal structural control on another disease and endpoint, not external validation of NAFLD prediction.
+The broad frontier survey remains paused. The targeted v0.4 milestone now includes the first private MJ outcome learners, explicitly restricted to a retrospectively selected retained population with a documented chronological label contract. These are conditional diagnostics, not validation in the original prospective risk population. Exact designed mechanisms, continuous calibration baselines and a public paired-channel feasibility pilot have also been completed. No original-population improvement, clinical mechanism or new-method novelty is asserted. The earlier v0.2/v0.3 statements that no MJ outcome model had been fitted remain true for those dated milestones.
 
 Private deliverables from this milestone: `NAFLD_GNN_Research_v0.2_20261014.md`, `NAFLD_Proposal_Stress_Test_20261014.md`, and `NAFLD_Research_v0.2_Package_20261014.zip`. The package retains the original proposal/dossier and supplies additive corrections, reproducible scripts, aggregate evidence, and supported/inferred/proposed claim records.
 
 This public checkpoint records workflow and generic design decisions only. Do not upload course records, full codebooks, participant timelines, detailed private findings, or the private research package. Prior publication-scope questions remain unresolved.
 
-+## 2026-10-14 v0.3 additive milestone
+## 2026-10-15 v0.4 additive milestone
+
+Private deliverables: `NAFLD_Deep_Research_v0.4_20261015.html`, its Markdown source, `NAFLD_Proposal_Prelude_v0.4_20261015.md`, and `NAFLD_Research_v0.4_Package_20261015.zip`. Current code, aggregate evidence, source/claim ledgers and scientific figures are retained privately; the v0.3 archive remains unchanged. Do not upload private numerical findings, records, complete codebooks or this package to the public repository.
+
+New bounded decisions and evidence locators:
+
+- The first current/observation/working-filter/history outcome comparison is a restricted selected-extract diagnostic. Preserve unknown endpoints and the recorded-detection target. Original retention and processing provenance are still unresolved. Evidence E01, dated report section 3 and `mj_model_metadata.json`; implementation checks E07 do not establish clinical assumptions.
+- A historical terminal date capped to a past fit date is not evidence of follow-up available at that fit date. Require documented observation/event dates; this control is not an allegation about the original paper. Evidence E01, report section 3.2.
+- Separate fitted-learner gain, oracle observed-history value, value beyond a physically defined current state, and new-observation acquisition value. A working filter or neural hidden state is not physiological truth. Evidence E02/E04, report sections 2 and 4-5.
+- Exact observationally equivalent noisy mechanisms can support different additional-measurement decisions. If history is already available, compare an additional assay conditional on history rather than proposing to discard the history. Evidence E02, report section 4.2.
+- Downgrade elementary binary deconvolution, known-world validation, classical mixture e-processes and sequential KL lower bounds to baselines. Random and targeted validation must use equal conditional information and the same inference construction. A composite-null likelihood envelope can yield martingale domination; the envelope ratio itself need not be a supermartingale. Evidence E04/E05/E07, report sections 5-6.
+- Even both old outcome-data and immediate measurement-data margins can be known while their missing joint outcome/measurement association remains unresolved. Classical statistical-matching completions retain zero additional-test value absent a linking restriction. Conditional-independence imputation must not be treated as neutral evidence for a new test. Evidence E09, report section 9.3.
+- The public paired-channel pilot establishes access and observation support only. Monitor output timestamps/readout changes are not verified independent measurement episodes. A comparative arterial channel is not physiological truth; future analyses must split repeated operations by subject identity. Evidence E06 and sources S09-S11, report section 8.
+- A new screening test may change recorded detection, the incident-risk population or treatment. Freeze the observation/outcome policy or explicitly define its policy effect; old recorded labels alone do not evaluate a changed policy. Source S13, report section 9.4.
+
+Candidate narrowed by these controls: What minimal outcome overlap or protocol-supported independent calibration makes the incremental predictive value of an additional test decidable when new outcomes are delayed? Novelty is unverified. Generic active feature acquisition, delayed-outcome fusion or latent identifiability alone is insufficient. This must survive direct reductions to existing data-fusion, AFA evaluation and robust-design methods before becoming a methods proposal.
+
+Closest additional primary sources and checked locators:
+
+- Landmarking 2.0: https://arxiv.org/html/2103.16252v1 , section 2; final metadata DOI https://doi.org/10.1002/sim.9336 . The working private filter is not a reproduction.
+- Active Testing, ICML 2021: https://proceedings.mlr.press/v139/kossen21a.html , PDF sections 2-3.
+- Active model selection, Machine Learning 2024: https://doi.org/10.1007/s10994-024-06603-1 , sections 3.1-3.2 and Theorem 1.
+- Learning-To-Measure, ICML 2026: https://proceedings.mlr.press/v306/kobayashi26a.html , original PDF section 3.1, Assumptions 3.1-3.3 and Theorem 3.4.
+- Time-varying AFA evaluation, JMLR 2025: https://jmlr.org/papers/v26/23-1635.html , original PDF sections 3.2-3.5, retrospective outcome availability, NDE/NUC/positivity.
+- Statistical matching, PGM 2016: https://proceedings.mlr.press/v52/endres16.html , original PDF sections 1.1-2.1 and equation 1.
+- Surrogate Index: https://www.nber.org/papers/w26463 , read the August 2024 revised working-paper PDF, sections 3.2-3.3 and section 4. Final journal full text was not obtained; keep version attribution precise.
+- Misinformation in statistical experiments, AISTATS 2026: https://proceedings.mlr.press/v300/callahan26a.html , original PDF Introduction and sections 2-3.
+- VitalDB original descriptor/API: https://www.nature.com/articles/s41597-022-01411-5 and https://vitaldb.net/docs/?documentId=API/Web_API_OpenDataset.md , Methods/Technical Validation and Track data. The live API metadata and original descriptor are separately versioned.
+
+Continue the existing `task-data-audit` for retention, terminal-negative, imputation and label-availability lineage. Next reconcile actual independent measurement/protocol evidence and the outcome-overlap contract. If the remaining problem reduces directly to established methods, retain a rigorous application/evaluation study and stop claiming methodological novelty. This is a targeted additive milestone, not literature saturation.
+
+## 2026-10-14 v0.3 additive milestone
 
 The targeted study now includes a second public longitudinal control (author-supplied AIDS data) and an official two-cycle NHANES CAP surrogate experiment. Public source bytes were acquired and hashed, the relevant XPORT fields were checked with an independent reader, and the aggregate outputs were freshly reproduced. The source-bank restoration control was also repeated without changing the original locked predictions. No private MJ outcome model was fitted.
 
@@ -41,9 +72,11 @@ The next step remains original source-pipeline reconciliation and a frozen risk-
 
 ## Candidate research question
 
-After accounting for a patient's own available history, observation process and shared context, when does borrowing from similar patients improve prospective risk prediction, and does that gain transfer to future patients?
+What minimal outcome overlap or protocol-supported independent calibration is needed to decide whether an additional test improves future prediction enough to justify its cost when new outcomes are delayed?
 
-This extends the earlier candidate on history evaluation under incomplete outcomes and record retention. It remains unverified, not a demonstrated MJ effect or confirmed novel method. A graph is one implementation of relational borrowing; the question must remain useful without GNNs.
+Earlier v0.3 candidate retained for provenance: After accounting for a patient's own available history, observation process and shared context, when does borrowing from similar patients improve prospective risk prediction, and does that gain transfer to future patients?
+
+The v0.4 candidate remains unverified, with a different immediate focus from relational borrowing. The graph branch is optional and paused. The restricted first fits and exact controls establish diagnostic boundaries, not a demonstrated clinical effect or confirmed novel method.
 
 ## Decisions from the new controls
 
@@ -78,8 +111,8 @@ Continue existing `task-data-audit`; it remains open for original processing pro
 
 1. Resolve eligibility, terminal-negative measurements, visit retention, missing-data processing, exposure lineage and label availability. If a prospective risk set cannot be reconstructed, restrict claims to the selected retrospective population.
 2. Freeze recorded first detection as the target. Do not conflate current diagnosis, latent onset, mortality/transplant or standardized-screening outcomes.
-3. Predefine horizon, raw prefix, chronological label cutoff, reference bank, participant split and evaluator before fitting MJ models.
-4. Run a fair current/history/observation comparison. Then examine neighbor summaries or kernel borrowing before scaling graph learners.
+3. The restricted v0.4 diagnostic has a fixed prefix and chronological label contract. Before any prospective claim, additionally resolve original eligibility and processing provenance, freeze the endpoint/policy and define independent validation.
+4. Use the completed current/history/observation diagnostic as a conditional baseline. Next verify independent measurement episodes/calibration and outcome overlap; do not scale graph learners without an unresolved relational-information question.
 5. Compare GNNs with equal-information own-history and non-GNN relational baselines, using comparable validation budgets. Keep inductive and permitted transductive tasks separate.
 6. Add chronological/geographic tests under an explicit reference/context availability contract; random splits do not establish new-population deployment.
 7. Pursue a method proposal only if a reproducible unresolved failure survives source reconciliation and strong baselines. Negative results can justify abandoning GNNs.
@@ -90,7 +123,7 @@ History decomposition; observation/detection and extraction; pre-detection metab
 
 ## Recovery
 
-Read the v0.3 research report and proposal prelude first, then the two v0.2 reports and the archived v0.1 proposal/dossier and prior audit. Do not restart broad surveying or treat PBC as MJ replication. Raw public PBC records are not bundled; the private package retains source hashes and reproduction instructions. Original source scripts and terminal-visit data remain important gaps. The older survey run metadata still has a running entry; do not infer an active worker or invent its missing end time.
+Read the v0.4 research report and proposal prelude first, then v0.3 and the two v0.2 reports and the archived v0.1 proposal/dossier and prior audit. Do not restart broad surveying or treat PBC as MJ replication. Raw public PBC records are not bundled; the private package retains source hashes and reproduction instructions. Original source scripts and terminal-visit data remain important gaps. The older survey run metadata still has a running entry; do not infer an active worker or invent its missing end time.
 
 ## Research rule
 

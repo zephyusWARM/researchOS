@@ -1,6 +1,6 @@
 # SNAPSHOT
 
-Updated: 2026-10-15T01:32:48+08:00
+Updated: 2026-10-15T11:09:12+08:00
 
 ## Current state
 
@@ -9,6 +9,28 @@ The broad frontier survey remains paused. The targeted v0.4 milestone now includ
 Private deliverables from this milestone: `NAFLD_GNN_Research_v0.2_20261014.md`, `NAFLD_Proposal_Stress_Test_20261014.md`, and `NAFLD_Research_v0.2_Package_20261014.zip`. The package retains the original proposal/dossier and supplies additive corrections, reproducible scripts, aggregate evidence, and supported/inferred/proposed claim records.
 
 This public checkpoint records workflow and generic design decisions only. Do not upload course records, full codebooks, participant timelines, detailed private findings, or the private research package. Prior publication-scope questions remain unresolved.
+
+## 2026-10-15 group-proposal protocol milestone
+
+The v0.4 candidate now has an operational first-stage group proposal. Its five main slides and two backup slides explain a controlled information-availability experiment using an already-collected contemporaneous measurement. Artificially conceal that measurement in old outcome-labelled data, conceal outcomes in a separate measurement-observed set, and compare which additional observations make incremental value decidable. This is a planned offline benchmark, not clinical validation of an uncollected new test.
+
+Private deliverables: `AIIM_NAFLD_Proposal_5min_20261015_v2.pptx`, its PDF, `AIIM_NAFLD_5min_Script_20261015.md`, and `AIIM_NAFLD_Proposal_20261015.md`. The suggested two-week pilot and five-person roles are drafts for discussion, not team commitments or a known course deadline. Detailed data support and private clinical figures remain outside this repository.
+
+Evidence identifiers and locators are recorded privately in `proposal5_build/source_and_claim_scope.json`:
+
+- G5-E01, planned protocol: `AIIM_NAFLD_Proposal_20261015.md`, section “可執行的第一階段”. Count paired-labelled training, tuning and evaluation budgets separately. A learner with access to the added measurement cannot secretly train on complete joint labels and then claim zero-overlap acquisition.
+- G5-E02, private aggregate support: `proposal5_build/tg_feasibility.json` and `verify_tg_feasibility.py`. This establishes selected-extract support for a controlled benchmark, not original prospective eligibility or a clinical test effect.
+
+Protocol boundaries:
+
+- Separate oracle information value in designed mechanisms from fitted-model risk improvements.
+- Remove current-measurement leakage through derived means, slopes, filters, categories and other summaries before concealment.
+- Artificial masking differs from natural censoring and from genuinely never-collected variables. Known-outcome subgroup eligibility must be stated; retain actual unknown outcomes in a separate sensitivity.
+- Fix patient/data roles before disclosure. Retrospective disclosure is not evidence that future labels were available at a past deployment date.
+- Independent calibration is initially a simulation arm; no verified independent clinical replicate is asserted.
+- Compare random disclosure with applicable established evaluation methods at equal information/budget. If these methods suffice, retain an evaluation study and stop claiming a novel method.
+
+No added-measurement-specific outcome model or disclosure-budget experiment has yet been performed for this protocol. Continue `task-data-audit` for original retention, terminal-negative and imputation lineage. This milestone makes the next experiment concrete without resolving those gaps.
 
 ## 2026-10-15 v0.4 additive milestone
 
@@ -123,7 +145,7 @@ History decomposition; observation/detection and extraction; pre-detection metab
 
 ## Recovery
 
-Read the v0.4 research report and proposal prelude first, then v0.3 and the two v0.2 reports and the archived v0.1 proposal/dossier and prior audit. Do not restart broad surveying or treat PBC as MJ replication. Raw public PBC records are not bundled; the private package retains source hashes and reproduction instructions. Original source scripts and terminal-visit data remain important gaps. The older survey run metadata still has a running entry; do not infer an active worker or invent its missing end time.
+Read the group-proposal protocol/script first for the planned next experiment, then the v0.4 research report and proposal prelude for established evidence, then v0.3 and the two v0.2 reports and the archived v0.1 proposal/dossier and prior audit. Do not restart broad surveying or treat PBC as MJ replication. Raw public PBC records are not bundled; the private package retains source hashes and reproduction instructions. Original source scripts and terminal-visit data remain important gaps. The older survey run metadata still has a running entry; do not infer an active worker or invent its missing end time.
 
 ## Research rule
 
